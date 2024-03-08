@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\callByReference.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|solutionrelative:callByReference.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\callByValue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|solutionrelative:callByValue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uD568\uC218\uC640\uD3EC\uC778\uD130.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|solutionrelative:\uD568\uC218\uC640\uD3EC\uC778\uD130.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uD3EC\uC778\uD130\uBC30\uC5F4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|solutionrelative:\uD3EC\uC778\uD130\uBC30\uC5F4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uD3EC\uC778\uD130.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|solutionrelative:\uD3EC\uC778\uD130.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uBC30\uC5F4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|solutionrelative:\uBC30\uC5F4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4581A4F-3D9A-4B77-9706-8A1CE10198C9}|Project1.vcxproj|C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\homework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,19 +43,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "callByReference.cpp",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\callByReference.cpp",
+              "RelativeDocumentMoniker": "callByReference.cpp",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\callByReference.cpp",
+              "RelativeToolTip": "callByReference.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-08T03:21:21.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\uD568\uC218\uC640\uD3EC\uC778\uD130.cpp",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uD568\uC218\uC640\uD3EC\uC778\uD130.cpp",
+              "RelativeDocumentMoniker": "\uD568\uC218\uC640\uD3EC\uC778\uD130.cpp",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uD568\uC218\uC640\uD3EC\uC778\uD130.cpp",
+              "RelativeToolTip": "\uD568\uC218\uC640\uD3EC\uC778\uD130.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-08T03:11:53.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "callByValue.cpp",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\callByValue.cpp",
+              "RelativeDocumentMoniker": "callByValue.cpp",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\callByValue.cpp",
+              "RelativeToolTip": "callByValue.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-08T02:23:24.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "\uD3EC\uC778\uD130\uBC30\uC5F4.cpp",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uD3EC\uC778\uD130\uBC30\uC5F4.cpp",
+              "RelativeDocumentMoniker": "\uD3EC\uC778\uD130\uBC30\uC5F4.cpp",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uD3EC\uC778\uD130\uBC30\uC5F4.cpp",
+              "RelativeToolTip": "\uD3EC\uC778\uD130\uBC30\uC5F4.cpp",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-08T00:40:26.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "\uBC30\uC5F4.cpp",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uBC30\uC5F4.cpp",
+              "RelativeDocumentMoniker": "\uBC30\uC5F4.cpp",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uBC30\uC5F4.cpp",
+              "RelativeToolTip": "\uBC30\uC5F4.cpp",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-08T00:27:52.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "\uD3EC\uC778\uD130.cpp",
               "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uD3EC\uC778\uD130.cpp",
               "RelativeDocumentMoniker": "\uD3EC\uC778\uD130.cpp",
               "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\\uD3EC\uC778\uD130.cpp",
               "RelativeToolTip": "\uD3EC\uC778\uD130.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-07T02:56:41.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "homework.cpp",
               "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\Project1\\homework.cpp",
               "RelativeDocumentMoniker": "homework.cpp",
