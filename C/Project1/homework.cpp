@@ -1,7 +1,7 @@
 #include<stdio.h>
 #pragma warning(disable:4996)
 
-int pageCount = 0;
+// int pageCount = 0;
 
 int main() {
 
@@ -100,20 +100,73 @@ int main() {
 	}
 	printf("%d", sum);*/
 
-	int i = 1;
+	/*int i = 1;
 	for (i = 1; i < 101; i++) {
 		printf("충전 : %d\n", i);
 	}
-	printf("충전이 완료되었습니다.");
+	printf("충전이 완료되었습니다.");*/
 
-	int pages = 0;
+	/*int pages = 0;
 
-	printf("읽은 책들의 페이지 수를 입력해주세요.");
-	scanf("%d", &pages);
+	static int spages = 0;
 
-	do {
+	while (pages != -1) {
+		printf("읽은 책들의 페이지 수를 입력해주세요.");
+		scanf("%d", &pages);
+		if (pages == -1) break;
 		pageCount = pageCount + pages;
-	} while (pages != -1);
+		spages = spages + pages;
+	}
+
+	printf("최종 누적 페이지: %d\n", pageCount);
+	printf("최종 누적 페이지: %d\n", spages);*/
+
+	//int arr1[] = { 1,2,3 };
+	//int arr2[3];
+
+	//for (int i = 0; i < 3; i++) {
+	//	arr2[i] = arr1[i];
+	//	printf("arr2[%d]:%d\n", i, arr2[i]);
+	//}
+
+//int arr1[] = { 1,2,3,4,5 };
+//int arr2[5];
+//
+//for (int i = 4; i >= 0; i--) {
+//	arr2[i] = arr1[4 - i];
+//}
+//for (int i = 0; i < 5; i++) {
+//	printf("arr2[%d]:%d\n", i, arr2[i]);
+//}
+
+//char a = 'F';
+//int b = 5;
+//char* pA = &a;
+//int* pB = &b;
+//
+//printf("pA가 가리키고 있는 변수의 실제 값: %c \n", *pA);
+//printf("pB가 가리키고 있는 변수의 실제 값: %d \n", *pB);
+
+//int arr[] = { 1,2,3,4,5 };
+//int* ptr = arr;
+//printf("가운데 값은 : %d", *(ptr + 2));
+
+//char a = 'C';
+//int b = 10;
+//double c = 3.14;
+//
+//char* pA = &a;
+//int* pB = &b;
+//double* pC = &c;
+//printf("a를 1증가 : %c\n", *pA + 1);
+//printf("b를 1증가 : %d\n", *pB + 1);
+//printf("c를 1증가 : %.2f\n", *pC + 1);
+
+int maxNum = 0;
+
+int arr[] = { 3,5,2,11,10 };
+
+
 
 	return 0;
 
