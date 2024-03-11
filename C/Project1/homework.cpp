@@ -1,6 +1,8 @@
 #include<stdio.h>
 #pragma warning(disable:4996)
 
+int pageCount = 0;
+
 int main() {
 
 	/*int input = 0;
@@ -104,6 +106,14 @@ int main() {
 	}
 	printf("충전이 완료되었습니다.");
 
+	int pages = 0;
+
+	printf("읽은 책들의 페이지 수를 입력해주세요.");
+	scanf("%d", &pages);
+
+	do {
+		pageCount = pageCount + pages;
+	} while (pages != -1);
 
 	return 0;
 
