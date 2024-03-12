@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form method="post" action="http://localhost/method.php">
+    <input type="text" name="myname" size="30" value="이름 입력"><p></p>
+    <input type="password" name="mypw" size="30" value="1234" maxlength="6"><p></p>
+    
+    평소에 선호하는 언어의 종류를 고르시오 <p></p>
+    <input type="checkbox" name="cb1" checked>C++
+    <input type="checkbox" name="cb2">Java
+    <input type="checkbox" name="cb3">Javascript
+    <input type="checkbox" name="cb4">Python
+    <!-- 중복체크가 가능하기때문에 name값을 다르게 한다. -->
+    <P></P>
+
+    현재 당신의 pc를 포멧하시겠습니까?<P></P>
+    <input type="radio" name="myradio"  checked>예
+    <input type="radio" name="myradio">아니요
+    <p></p>
+    <!-- name이 같은건 하나의 그룹임을 의미 -->
+
+    <select>
+      <option value="">당신의 세대는?</option>
+      <option value="10">10대</option>
+      <option value="20" selected>20대</option>
+      <option value="30">30대</option>
+      <option value="40">40대</option>
+      <option value="50">50대</option>
+      <option value="60">60대</option>
+    </select>
+
+    <p></p>
+
+
+    <input type="file" name="myname">
+    <p></p>
+
+    <input type="submit" value="전송">
+
+    <!-- 이미지 버튼 -->
+    <input type="image" src="images/틈.webp" width="100">
+
+
+  </form>
+</body>
+</html>
