@@ -162,10 +162,20 @@ int main() {
 //printf("b를 1증가 : %d\n", *pB + 1);
 //printf("c를 1증가 : %.2f\n", *pC + 1);
 
-int maxNum = 0;
-
-int arr[] = { 3,5,2,11,10 };
-
+//int maxNum = 0;
+//
+//int arr[] = { 3,5,2,11,10 };
+//
+//for (int i = 0; i < sizeof(arr) / sizeof(arr[0]); i++) {
+//	if (arr[i] > arr[i - 1]) {
+//		maxNum = arr[i];
+//	}
+//	else {
+//		maxNum = arr[i - 1];
+//	}
+//}
+//
+//printf("가장 큰 값은 : %d", maxNum);
 
 
 	return 0;

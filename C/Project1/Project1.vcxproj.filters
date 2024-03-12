@@ -66,5 +66,11 @@
     <ClCompile Include="구조체.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="공용체.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="열거형.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
