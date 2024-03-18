@@ -84,5 +84,14 @@
     <ClCompile Include="cplus_클래스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="cplus객체포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cplus상수화.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cplusStatic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

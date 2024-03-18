@@ -53,7 +53,7 @@ void Test::SetXY(int nX, int nY) {
 }
 
 void main() {
-	MousePoint pt; // 클래스로 선언한 변수는 객체
+	//MousePoint pt; // 클래스로 선언한 변수는 객체
 	// 디폴트 생성자가 있어서 생성자 함수가 없어도 객체 생성이 가능
 	// ex ) MousePoint(){} 의 구조로 디폴트 생성자가 존재
 	// 생성 후 초기화는 불가능
@@ -61,7 +61,7 @@ void main() {
 	// 디폴트 생성자를 사용하고 싶으면 추가로 정의 필요(오버로딩)
 	
 	//pt.x = 0; // 기본값이 private으로 데이터에 접근 불가능
-	pt.SetXY(10, 20);
+	//pt.SetXY(10, 20);
 
 	Test ts2;
 	Test ts(12, 20); // 생성자 함수를 통한 객체 생성 및 초기화
@@ -73,5 +73,25 @@ void main() {
 	cout << ts.GetY() << endl;
 
 
-	// 소멸자 - 객체가 소멸할 때 자동 호출됨. 오버로딩 안됨
-}	// 2개의 객체를 생성했기때문에 소멸자가 2번 호출됨
+	// 소멸자 - 객체가 소멸할 때 자동 호출됨. 
+	// // 2개의 객체를 생성했기때문에 소멸자가 2번 호출됨오버로딩 안됨
+
+
+	Test pt[3] = { Test(10,20), Test(100,200), Test(500,600) }; // 초기화
+
+	// pt[0].SetXY(10, 20);
+	// pt[1].SetXY(100, 200);
+	for (int i = 0; i < 3; i++) {
+		cout << pt[i].GetX() << endl;
+		cout << pt[i].GetY() << endl;
+
+	}
+	// cout << pt[0].GetX() << endl;
+	// cout << pt[1].GetX() << endl;
+
+
+
+
+
+
+}	

@@ -1,3 +1,4 @@
-﻿  cplus_클래스.cpp
-C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C\Project1\cplus_클래스.cpp(55,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+﻿  cplus객체포인터.cpp
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C\Project1\cplus객체포인터.cpp(52,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C\Project1\cplus객체포인터.cpp(53,14): warning C4101: 'pObj' :참조되지 않은 지역 변수입니다.
   Project1.vcxproj -> C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C\Project1\x64\Debug\Project1.exe
