@@ -53,7 +53,7 @@ void Test::SetXY(int nX, int nY) {
 }
 
 void main() {
-	//MousePoint pt; // 클래스로 선언한 변수는 객체
+	// MousePoint pt; // 클래스로 선언한 변수는 객체
 	// 디폴트 생성자가 있어서 생성자 함수가 없어도 객체 생성이 가능
 	// ex ) MousePoint(){} 의 구조로 디폴트 생성자가 존재
 	// 생성 후 초기화는 불가능
@@ -64,9 +64,19 @@ void main() {
 	//pt.SetXY(10, 20);
 
 	Test ts2;
+
+	// 스택 메모리에 정적 객체 생성
 	Test ts(12, 20); // 생성자 함수를 통한 객체 생성 및 초기화
 	cout << ts.GetX() << endl;
 	cout << ts.GetY() << endl;
+
+	// 힙 메모리에 동적으로 객체 생석
+	Test* ts3 = new Test(11, 22);
+	cout << ts3->GetX() << endl;
+	cout << ts3->GetY() << endl;
+
+
+	delete ts3; // 사용 후 삭제
 
 	ts.SetXY(50,100);
 	cout << ts.GetX() << endl;

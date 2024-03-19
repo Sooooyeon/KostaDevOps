@@ -27,6 +27,7 @@ class MousePoint
 
 			// 따라서 this를 사용해 간접 참조. 화살표 사용해 접근
 			// this를 명시함으로서 코드의 의미가 더욱 명확해짐
+			// this는 함수를 호출하는 객체
 			this -> x = x;
 			this -> y = y;
 
