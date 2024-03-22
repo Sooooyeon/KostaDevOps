@@ -13,20 +13,35 @@ void main()
 	lower = 0;
 	upper = size - 1;
 
+	scanf_s("%d", &key);
 
+	int count = 0;
 
 	for (;;) 
 	{
+		count++;
+
 		middle = (lower + upper) / 2;
+
+		if (arr[middle] == key) {
+			printf("해당 요소가 검색되었습니다.");
+			break;
+		}
 
 		if (arr[middle] > key) {
 			upper = middle -1;
 		}
 		else {
 			lower = middle + 1;
+		}
 
+		if (upper <= lower) {
+			printf("검색되지 않았습니다.");
+			break;
 		}
 	}
+
+	printf("비교 횟수는 %d", count);
 
 
 }
