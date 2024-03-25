@@ -23,6 +23,13 @@ public:
 		delete[] pBuffer;
 	}
 
+	// 참조자 사용
+	String(const String& str1) {
+		this -> nLength = str1.nLength;
+		this -> pBuffer = new char[this->nLength + 1];
+		strcpy_s(this->pBuffer, this->nLength + 1, str1.pBuffer);
+	}
+
 	// 대입연산자 오버로딩 
 	void operator = (const String& s) 
 	{
@@ -50,11 +57,14 @@ private:
 void main() 
 {
 	String str1('A', 3);
-	String str2('B', 5);
+	//String str2('B', 5);
 
-	str2 = str1; // str2 의 pBuffer가 'A'의 주소를 가르키게됨 소멸할때 문제가 됨
-	// str2.operator=(str1); // 윗줄의 코드와 같은 표현
+	//str2 = str1; // str2 의 pBuffer가 'A'의 주소를 가르키게됨 소멸할때 문제가 됨
+	//// str2.operator=(str1); // 윗줄의 코드와 같은 표현
 
+	//str2.SetData();
+
+	String str2 = str1; // str2(str1)
 	str2.SetData();
 
 }
