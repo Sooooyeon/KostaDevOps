@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>배열</title>
+</head>
+<body>
+  <script>
+    // var month = new Array(1,2,3,4,5,6,7,8,9,10,11,12);
+    // document.write(month[0] + '월' + '</br>');
+    // document.write(month.length + '</br>');
+
+    // for(let i = 0; i < month.length; i++ ){
+    //   document.write(month[i] + '월' +'</br>');
+    // }
+    
+    // var major = new Array('컴퓨터공학과', '전자공학과','기계공학과');
+    // var minor = new Array('국문학', '영문학','경영학');
+
+    // var total = major.concat(minor);
+    // document.write(total);
+
+    // var month = new Array(1,2,3,4,5,6,7,8,9,10,11,12);
+    
+    // for(let i = 0; i < month.length; i++ ){
+    //   document.write(month[i] + '월' +'</br>');
+    // }
+
+    // var rev = month.reverse();
+    // for(let i = 0; i <br rev.length; i++ ){
+    //   document.write(rev[i] + '월' +'</br>');
+    // }
+
+    var num = new Array(12,2,7,5,100,25,63);
+
+    var sortNum = num.sort((a,b)=>a-b); // 원본 배열이 변경됨
+    // var sortNum = [...num].sort((a,b)=>a-b); 
+    
+    var sortNum2 = num.sort((a,b)=>b-a);
+
+    document.write(sortNum);
+    document.write("</br>");
+    document.write(sortNum2);
+    document.write("</br>");
+    document.write(num);
+    document.write("</br>");
+
+
+    sortNum.push(500);
+    document.write(num);
+    document.write("</br>");
+    num.pop();
+    document.write(num);
+    document.write("</br>");
+
+
+  </script>
+</body>
+</html>

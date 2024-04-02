@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>배열</title>
+</head>
+<body>
+  <script>
+    var arr = ["자바스크립트","C언어","파이썬","자바","Node.js"];
+    arr.map((item)=>document.write(item + ", "));
+    document.write("<br><br>")
+    
+    arr.forEach((item)=>document.write(item + ", "));
+    document.write("<br><br>")
+
+    arr.pop();
+    arr.map((item)=>document.write(item + ", "));
+    document.write("<br><br>")
+
+    arr.push("C++");
+    arr.map((item)=>document.write(item + ", "));
+    document.write("<br><br>")
+
+    for(var i = 0; i< arr.length; i++){
+      document.write('<li>' + arr[i] + '</li>' + '<br>')
+    }
+    var list = document.querySelectorAll('li');
+    console.log(list);
+    for(var i = 0; i< list.length; i++){
+      document.write(list[i].innerText);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>window 객체</title>
+</head>
+<body onLoad = "myLoad()" onblur="myBlur()">
+  <button onclick="newOpen()">새 윈도우 열기</button>
+  <button onclick="winClose()">창 닫기</button>
+  <h1>윈도우 객체에서 제공하는 이벤트</h1>
+  <script>
+    function myLoad(){
+      alert("문서를 로드했습니다.")
+    }
+    function myBlur(){
+      alert("포커스를 일었습니다.")
+    }
+  </script>
+</body>
+</html>

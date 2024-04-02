@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이벤트와 이벤트 핸들러</title>
+</head>
+<body>
+  <input type="button" id = "myid" value="버튼">
+  <input type="text" onchange="alert('changed')">
+  <script>
+    var element = document.getElementById("myid");
+    element.addEventListener("click",function()
+    {
+      alert('첫 번째 이벤트 입니다.')
+    })
+    element.addEventListener("click",function()
+    {
+      alert('두 번째 이벤트 입니다.')
+    })
+    element.addEventListener("click",function(){
+      alert("버튼 클릭")
+    });
+  </script>
+</body>
+</html>

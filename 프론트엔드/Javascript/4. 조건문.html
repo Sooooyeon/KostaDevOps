@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>조건문</title>
+</head>
+<body>
+  <script>
+    /*
+    var a = 5;
+    var b = 3;
+
+    if(a > 0){
+      document.write("a는 0보다 크다" + "<br>");
+    } else if(a < 0){
+      document.write("a는 0보다 작다" + "<br>");
+    } else if(a == 0) {
+      document.write("a는 0과 같다" + "<br>");
+    } else {
+      document.write("잘못 입력하셨습니다."+"<br>");
+    }
+
+    if(a < b){
+      document.write("a는 b보다 작다" + "<br>");
+    } else {
+      document.write("a는 b보다 크다" + "<br>");
+    }
+    */
+
+    var score = prompt("점수를 입력해주세요.");
+    // 90 >= score  && score <= 100 : A
+    // 80 ~ 89 : B
+    // 70 ~ 79 : C
+    // 60 ~ 69 : D
+    // 0 ~ 59 : F
+
+    if( score <= 100 && 90 <= score){
+      document.write("A" + "<br>");
+    } else if( score <= 90 && 80 <= score){
+      document.write("B" + "<br>");
+    } else if( score < 80 && 70 <= score){
+      document.write("C" + "<br>");
+    } else if( score < 70 && 60 <= score){
+      document.write("D" + "<br>");
+    } else if( score >= 0 && 60 > score){
+      document.write("F" + "<br>");
+    } else{
+      document.write("입력값이 올바르지 않습니다." + "<br>");
+    }
+
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>함수</title>
+</head>
+<body>
+  <script>
+    function MyInfo(name, age){
+      document.write("이름 : " + name + "<br>");
+      document.write("나이 : " + age + "<br>");
+    }
+
+    function sum(p1, p2){
+      return (parseInt(p1)+parseInt(p2));
+    }
+
+    var a = prompt('첫번째');
+    var b = prompt('두번째');
+
+    var plus = sum(a,b);
+    document.write(plus);
+    document.write('<div style = "color:red">' + sum(50,20) + '<div>');
+
+    // var myName = prompt("이름을 입력해주세요.");
+    // var myAge = prompt("나이를 입력해주세요.");
+    // MyInfo(myName, myAge);
+
+  </script>
+</body>
+</html>

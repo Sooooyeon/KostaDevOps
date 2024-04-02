@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>타이머</title>
+</head>
+<body>
+  <script>
+    var timerID;
+    function timeStart(){
+      alert('5초 후에 폭탄이 폭팔합니다.')
+      timerID = window.setTimeout(()=>{
+        alert("BOOM!");
+      },5000)
+    }
+
+    function timeStop(){
+      window.clearTimeout(timerID);
+      alert('간신히 목숨을 건졌다.');
+    }
+  </script>
+  <button onclick="timeStart()">시한 폭탄 설정</button>
+  <button onclick="timeStop()">시한 폭탄 해체</button>
+</body>
+</html>
