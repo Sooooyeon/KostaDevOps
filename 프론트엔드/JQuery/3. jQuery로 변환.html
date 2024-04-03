@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>제이쿼리 코드</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+  <script>
+    window.onload = function(){
+      console.log('html이 준비되면 실행');
+      // document.getElementById('pp').style.color = 'blue';
+      $('#pp').css('color','hotpink');
+    }
+
+    function func_click(color){
+      // document.getElementById('pp').style.color = color;
+      $('#pp').css('color', color);
+    }
+  </script>
+  <p id="pp">Hello World</p>
+  <button id="orange" onclick="func_click('orange')">orange</button>
+  <button id="green" onclick="func_click('green')">green</button>
+</body>
+</html>

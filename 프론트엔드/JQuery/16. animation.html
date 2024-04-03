@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>애니메이션</title>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <style>
+    div{
+      margin: 5px 0;
+      padding: 5px;
+      width: 80px;
+      height: 80px;
+      background-color: indianred;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <input type="button" value="fadeOut" id="fadeOut">
+  <input type="button" value="fadeIn" id="fadeIn">
+  <input type="button" value="hide" id="hide">
+  <input type="button" value="show" id="show">
+  <input type="button" value="slide up" id="slideUp">
+  <input type="button" value="slide down" id="slideDown">
+  <input type="button" value="mix" id="mix">
+  <div id="target">
+    Target
+  </div>
+  <script>
+    $('input[type = "button"]').click(function(e){
+      var $this = $(e.target);
+      switch($this.attr('id')){ // attribute()
+        case 'fadeOut':
+            $("#target").fadeOut('slow');
+            break;
+        case 'fadeIn':
+            $("#target").fadeIn('slow');
+            break;
+        case 'hide':
+            $("#target").hide('slow');
+            break;
+        case 'show':
+            $("#target").show('show');
+            break;
+        case 'slideUp':
+            $("#target").slideUp('slow');
+            break;
+        case 'slideDown':
+            $("#target").slideDown('slow');
+            break;
+        case 'mix':
+            $("#target").fadeOut('slow').fadeIn('slow').delay(1000).hide('slow').show('show').delay(1000).slideUp('slow').slideDown('slow').delay('slow', function(){alert("끝!")});
+            break;
+      }
+    });
+  </script>
+</body>
+</html>

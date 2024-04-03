@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>클래스</title>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <style>
+    p{
+      background-color: pink;
+      margin: 12px 0;
+      padding: 12px;
+    }
+    .blue{
+      background-color: royalblue;
+      color:white;
+    }
+    .hightlight{
+      background-color: orange;
+    }
+  </style>
+</head>
+<body>
+  <p class="blue">Click to toggle</p>
+  <p class="blue hightlight">hightlight</p>
+  <p class="blue">on these</p>
+  <p>paragraphs</p>
+
+  <script>
+    $("p").click(function(){
+      $(this).toggleClass("hightlight");
+    })
+  </script>
+</body>
+</html>
