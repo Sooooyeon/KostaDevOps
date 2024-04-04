@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h2>data test</h2>
+  
+  <button onclick="goToPage('1111.html', 'test')">Go to Page 1 with Data</button>
+  
+  <script>
+  
+  function goToPage(url, data) {
+      window.location.href = url + '?data=' + data;
+  }
+  </script>
+  
+  </body>
+</html>

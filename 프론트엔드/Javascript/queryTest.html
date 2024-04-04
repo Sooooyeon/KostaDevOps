@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h2>Data Received on page1.html</h2>
+  
+  <div id="dataDisplay"></div>
+  
+  <script>
+  // URL에서 데이터 추출
+  const urlParams = new URLSearchParams(window.location.search);
+  const data = urlParams.get('data');
+  
+  // 데이터를 화면에 출력
+  document.getElementById('dataDisplay').innerText = 'Received Data: ' + data;
+  </script>
+  
+  </body>
+</html>
