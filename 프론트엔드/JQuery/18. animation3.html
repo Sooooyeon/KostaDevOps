@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>애니메이션3</title>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+  <div id="animationDiv">애니메이션 영역</div>
+  <button id="animateButton">애니메이션 시작</button>
+  <script>
+    $(document).ready(function(){
+      $("#animateButton").click(function(){
+        $("#animationDiv").animate({
+          width : "150px",
+          height:"+=150px",
+          opacity : 0.5,
+          left: "250px"
+        },1000)
+      })
+    })
+  </script>
+</body>
+</html>

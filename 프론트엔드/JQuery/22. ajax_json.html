@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ajax</title>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+  <script>
+    $.ajax({
+      url: "https://jamsuham75.github.io/image/test.json",
+      method: "GET",
+      success:function(response){
+        console.log("요청 성공")
+        console.log(response) // 바이너리가 텍스트로 들어옴
+      },
+      error: function(error){
+        console.log("요청 실패")
+        console.log(error)
+      }
+    })
+  </script>
+</body>
+</html>

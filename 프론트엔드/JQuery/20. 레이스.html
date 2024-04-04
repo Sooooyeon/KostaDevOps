@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>레이스</title>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+  <img id="cloaking" src="/20. img1.png" alt="클로킹버튼"/>
+  <img id="wraith" src="/20. img2.png" alt="레이스"/>
+  
+  <script>
+    $("#cloaking").click(function(){
+      $("#wraith").toggle().fadeOut(3000);
+    })
+  </script>
+</body>
+</html>
