@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\STL\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3C17C6F-F582-43BC-B44D-E73B49573556}|STL.vcxproj|C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\STL\\1.\uBCA1\uD130.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D3C17C6F-F582-43BC-B44D-E73B49573556}|STL.vcxproj|solutionrelative:1.\uBCA1\uD130.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3C17C6F-F582-43BC-B44D-E73B49573556}|STL.vcxproj|C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\STL\\6. \uBC18\uBCF5\uC790.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D3C17C6F-F582-43BC-B44D-E73B49573556}|STL.vcxproj|solutionrelative:6. \uBC18\uBCF5\uC790.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "1.\uBCA1\uD130.cpp",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\STL\\1.\uBCA1\uD130.cpp",
+              "RelativeDocumentMoniker": "1.\uBCA1\uD130.cpp",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\STL\\1.\uBCA1\uD130.cpp",
+              "RelativeToolTip": "1.\uBCA1\uD130.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-08T00:56:21.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "6. \uBC18\uBCF5\uC790.cpp",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\STL\\6. \uBC18\uBCF5\uC790.cpp",
+              "RelativeDocumentMoniker": "6. \uBC18\uBCF5\uC790.cpp",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C\\STL\\6. \uBC18\uBCF5\uC790.cpp",
+              "RelativeToolTip": "6. \uBC18\uBCF5\uC790.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-08T00:32:50.287Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

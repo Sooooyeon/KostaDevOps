@@ -20,5 +20,11 @@ void main()
 		cout << arr[i] << endl;
 	}
 
+	vector<int>::iterator it;
 
+	for (it = arr.begin(), i=0; it != arr.end(); it++, i++)
+	{
+		cout << arr[i] << endl;
+		cout << *it << endl;
+	}
 }
