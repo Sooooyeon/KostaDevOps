@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이동위치정보</title>
+</head>
+<body>
+  <button onclick="StartPosition()">위치 추적 시작</button><p></p>
+  <div id="result"></div>
+
+  <script>
+    var watchId;
+    function StartPosition(){
+      if(navigator.geolocation){
+        var options = {enableHighAccuracy:true, timeout:1000, maximumAge: 6000}
+        watchId= navigator.geolocation.watchPosition(CurrentPosition, ErrorMessage,options);
+      }
+    }
+
+    function CurrentPosition(position){
+      var lat = position.coords.latitude; // 위도
+      var lng = position.coords.longitude; // 경도
+      document.getElementById("result").innerHTML = `위도 : ${lat}, 경도 : ${lng}`;
+    }
+
+    function ErrorMessage(err){
+      switch(err.code){
+        case err.PERMISSION_DENIED:
+          document.getElementById("result").innerHTML  = "현재 위치 정보에 대한 권한이 없습니다."
+          break;
+        case err.PERMISSION_UNAVAILABLE:
+          document.getElementById("result").innerHTML  = "현재 위치 정보를 구할 수 없습니다."
+          break;
+        case err.TIMEOUT:
+          document.getElementById("result").innerHTML  = "제한 시간을 초과했습니다."
+          break;
+      }
+    }
+
+  </script>
+</body>
+</html>

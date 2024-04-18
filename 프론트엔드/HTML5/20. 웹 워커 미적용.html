@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>웹 워커 미적용</title>
+</head>
+<body>
+  <script>
+    function Available(){
+      if(window.Worker){
+        document.getElementById("result").innerHTML = '이 브라우저는 웹 워커를 지원합니다.';
+      } else {
+        document.getElementById("result").innerHTML = '이 브라우저는 웹워커를 지원하지 않습니다.';
+      }
+    }
+
+    function stopOperation(){
+      var endTime = new Date().getTime() + 5000;
+      while(new Date().getTime() < endTime){}
+      document.getElementById("result").innerHTML = '일어날 시간입니다.';
+    }
+
+    function awake(){
+      alert('일어나 일어나야지');
+    }
+  </script>
+
+  <button onclick="Available()">웹 워커 지원 여부</button>
+
+  <button onclick="stopOperation()">워커 미적용 수행</button>
+  <button onclick="awake()">깨어날 시간</button>
+
+  <div id="result"></div>
+</body>
+</html>

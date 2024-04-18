@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>색상변경</title>
+</head>
+<body>
+  <canvas id="mycanvas" width="600" height="400" style="border: 3px solid;"></canvas>
+  <script>
+    var canvas = document.getElementById("mycanvas");
+    var mycontext = canvas.getContext("2d"); 
+
+    mycontext.beginPath();
+    mycontext.strokeStyle = "rgb(200,30,80)";
+    mycontext.strokeStyle = "royalblue";
+    mycontext.strokeStyle = "#008000";
+    mycontext.strokeRect(10,10,100,100);
+
+    // 사각형
+    mycontext.fillStyle = "pink";
+    mycontext.fillRect(150,10,100,100);
+
+    // 삼각형
+    mycontext.moveTo(80,120);
+    mycontext.lineTo(20,240);
+    mycontext.lineTo(140,240);
+    mycontext.lineTo(80,120);
+    mycontext.fillStyle = "orange";
+    mycontext.fill();
+
+    // 원
+    mycontext.beginPath();
+    mycontext.arc(200,200,50,0, 2*Math.PI);
+    mycontext.fillStyle = "royalblue";
+    mycontext.fill();
+
+
+
+
+  </script>
+</body>
+</html>

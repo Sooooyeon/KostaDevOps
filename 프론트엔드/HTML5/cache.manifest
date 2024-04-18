@@ -1,0 +1,10 @@
+CACHE MANIFEST
+#version 1.0.0.0
+
+CACHE:
+25. offWeb.html
+style.css
+cPlus.jpg
+
+NETWORK:*
+FALLBACK:

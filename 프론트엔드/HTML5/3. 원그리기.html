@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>원그리기</title>
+</head>
+<body>
+  <canvas id="mycanvas" width="600" height="400" style="border: 3px solid;"></canvas>
+  <script>
+    var canvas = document.getElementById("mycanvas");
+    var mycontext = canvas.getContext("2d"); 
+
+    mycontext.beginPath();
+    mycontext.arc(100,75,50, 0, 2*Math.PI);
+    mycontext.closePath();
+    mycontext.stroke();
+
+    mycontext.beginPath();
+    mycontext.arc(250,75,50, 0, 1.5*Math.PI);
+    mycontext.stroke();
+
+  </script>
+</body>
+</html>

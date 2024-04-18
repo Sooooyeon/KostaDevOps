@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로그인 상태 관리</title>
+</head>
+<body>
+  <h1>세션 스토리지 기반 로그인</h1>
+
+  <div id="loginForm">
+    <label>사용자아이디 : </label>
+    <input type="text" id="userid"/>
+    <label>사용자비밀번호 : </label>
+    <input type="password" id="userpw">
+    <button id="loginbutton">로그인</button>
+  </div>
+  <div id="welcomeMsg">
+    <p>환영합니다. <span id="loginedUser"></span>님!</p>
+  </div>
+
+  <script>
+    const loginForm = document.getElementById('loginForm');
+    const useridInput = document.getElementById('userid');
+    const passwordInput = document.getElementById('userpw');
+    const loginBtn = document.getElementById('loginbutton');
+    const welcomeMsg = document.getElementById('welcomeMsg');
+    const loginedUser = document.getElementById('loginedUser');
+    
+
+    loginBtn.addEventListener('click',function(){
+      if(useridInput.value === 'user' && passwordInput.value === '1234'){
+          sessionStorage.setItem('loginedUser', useridInput.value);
+          welcomeMsg.style.display = 'block'
+          loginedUser.textContent = useridInput.value;
+      } else {
+          alert('아이디 또는 비밀번호가 일치하지 않습니다.')
+      }
+    })
+
+  </script>
+</body>
+</html>

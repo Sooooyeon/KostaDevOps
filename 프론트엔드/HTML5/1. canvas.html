@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>캔버스</title>
+</head>
+<body>
+  <canvas id="mycanvas" width="600" height="400" style="border: 3px solid;"></canvas>
+  <script>
+    var canvas = document.getElementById("mycanvas");
+    var mycontext = canvas.getContext("2d"); 
+    // 화면과 동일한 사이즈의 메모리를 생성. 화면과 메모리를 각각 담는 버퍼가 존재
+    // 버퍼 : 데이터를 담을 그릇, 컨테이너
+
+    mycontext.strokeRect(10,10,200,150);
+    mycontext.fillRect(250, 10, 200, 150);
+    mycontext.fillRect(10, 170, 200, 150);
+    mycontext.strokeRect(250,170,200,150);
+    mycontext.clearRect(270,20,100,50);
+
+
+  </script>
+</body>
+</html>
