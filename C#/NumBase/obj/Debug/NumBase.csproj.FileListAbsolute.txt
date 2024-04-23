@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\NumBase\bin\Debug\NumBase.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\NumBase\bin\Debug\NumBase.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\NumBase\bin\Debug\NumBase.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\NumBase\obj\Debug\NumBase.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\NumBase\obj\Debug\NumBase.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\NumBase\obj\Debug\NumBase.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\NumBase\obj\Debug\NumBase.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\NumBase\obj\Debug\NumBase.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\NumBase\obj\Debug\NumBase.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\NumBase\obj\Debug\NumBase.pdb
