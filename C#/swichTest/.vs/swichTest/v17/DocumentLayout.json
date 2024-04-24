@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\swichTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{108F58A3-3AD9-48B7-949B-79EB9E146B28}|swichTest.csproj|c:\\users\\kosta\\desktop\\\uC7A5\uC218\uC5F0\\kostadevops\\c#\\swichtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108F58A3-3AD9-48B7-949B-79EB9E146B28}|swichTest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\swichTest\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\swichTest\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:14:57.947Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

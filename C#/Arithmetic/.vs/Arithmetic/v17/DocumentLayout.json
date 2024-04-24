@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\Arithmetic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0595CB36-2B7A-41BB-8717-DF83792D9E36}|Arithmetic.csproj|c:\\users\\kosta\\desktop\\\uC7A5\uC218\uC5F0\\kostadevops\\c#\\arithmetic\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0595CB36-2B7A-41BB-8717-DF83792D9E36}|Arithmetic.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0595CB36-2B7A-41BB-8717-DF83792D9E36}|Arithmetic.csproj|c:\\users\\kosta\\desktop\\\uC7A5\uC218\uC5F0\\kostadevops\\c#\\arithmetic\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0595CB36-2B7A-41BB-8717-DF83792D9E36}|Arithmetic.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0595CB36-2B7A-41BB-8717-DF83792D9E36}|Arithmetic.csproj|c:\\users\\kosta\\desktop\\\uC7A5\uC218\uC5F0\\kostadevops\\c#\\arithmetic\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0595CB36-2B7A-41BB-8717-DF83792D9E36}|Arithmetic.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\Arithmetic\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\Arithmetic\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T02:02:44.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\Arithmetic\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\Arithmetic\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T01:50:45.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\Arithmetic\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\Arithmetic\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T01:48:44.814Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

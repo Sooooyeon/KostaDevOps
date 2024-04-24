@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\discount\bin\Debug\discount.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\discount\bin\Debug\discount.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\discount\bin\Debug\discount.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\discount\obj\Debug\discount.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\discount\obj\Debug\discount.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\discount\obj\Debug\discount.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\discount\obj\Debug\discount.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\discount\obj\Debug\discount.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\discount\obj\Debug\discount.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\discount\obj\Debug\discount.pdb

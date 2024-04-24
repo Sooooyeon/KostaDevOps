@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\구구단\bin\Debug\구구단.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\구구단\bin\Debug\구구단.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\구구단\bin\Debug\구구단.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\구구단\obj\Debug\구구단.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\구구단\obj\Debug\구구단.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\구구단\obj\Debug\구구단.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\구구단\obj\Debug\구구단.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\구구단\obj\Debug\구구단.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\구구단\obj\Debug\구구단.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\구구단\obj\Debug\구구단.pdb

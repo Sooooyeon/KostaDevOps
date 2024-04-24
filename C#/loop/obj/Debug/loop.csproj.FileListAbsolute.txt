@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\loop\bin\Debug\loop.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\loop\bin\Debug\loop.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\loop\bin\Debug\loop.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\loop\obj\Debug\loop.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\loop\obj\Debug\loop.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\loop\obj\Debug\loop.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\loop\obj\Debug\loop.pdb

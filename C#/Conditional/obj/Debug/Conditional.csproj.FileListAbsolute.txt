@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Conditional\bin\Debug\Conditional.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Conditional\bin\Debug\Conditional.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Conditional\bin\Debug\Conditional.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Conditional\obj\Debug\Conditional.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Conditional\obj\Debug\Conditional.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Conditional\obj\Debug\Conditional.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Conditional\obj\Debug\Conditional.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Conditional\obj\Debug\Conditional.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Conditional\obj\Debug\Conditional.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Conditional\obj\Debug\Conditional.pdb

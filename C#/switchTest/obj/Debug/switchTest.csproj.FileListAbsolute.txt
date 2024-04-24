@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\switchTest\bin\Debug\switchTest.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\switchTest\bin\Debug\switchTest.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\switchTest\bin\Debug\switchTest.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\switchTest\obj\Debug\switchTest.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\switchTest\obj\Debug\switchTest.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\switchTest\obj\Debug\switchTest.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\switchTest\obj\Debug\switchTest.pdb
