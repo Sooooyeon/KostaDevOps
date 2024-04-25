@@ -79,17 +79,43 @@
 
 # 사용자로부터 단수를 입력받아 구구단 출력
 
-dan = int(input('몇단을 출력할까요?'))
-val = 1
-
-while val < 10:
-    print('%d * %d = %d' %(dan,val,dan*val))
-    val += 1
-
-
+##dan = int(input('몇단을 출력할까요?'))
+##val = 1
+##
+##while val < 10:
+##    print('%d * %d = %d' %(dan,val,dan*val))
+##    val += 1
 
 
 
+# 무한 루프는 수행조건에 의해서 언젠가 조건이 무너질 수 있도록 설계
+
+##hap = 0
+##inum = 0
+##
+##while True:
+##    inum = int(input('정수를 입력하세요:'))
+##    hap += inum
+##    if inum == -1:
+##        break
+##    print('누적된 합:' + str(hap))
+##
 
 
 
+##a = 0
+##while True:
+##    if a > 100:
+##        break
+##    print('a:',a)
+##    a = a + 1
+##pritn('a는 100보다 크다')
+
+
+#continue
+a = 0
+while a < 100:
+    a  = a + 1
+    if a > 80 and a < 90:
+        continue
+    print('a는:',a)
