@@ -93,28 +93,7 @@
 
 
 
-# 바이너리 파일 복사
-import os
 
-srcfile = 'C:/Users/KOSTA/Desktop/장수연/KostaDevOps/Python/submarine.png'
-destfile = 'C:/Users/KOSTA/Desktop/장수연/KostaDevOps/Python/submarinecpy.png'
-
-if os.path.exists(srcfile):
-    sfp = open(srcfile, 'rb')
-    dfp = open(destfile, 'wb')
-
-    while True:
-        sbyte = sfp.read()
-        if not sbyte:
-            break
-        dfp.write(sbyte)
-
-    sfp.close()
-    dfp.close()
-    print("%s 파일을 복사했습니다." % srcfile)
-
-else:
-    print("%s 파일이 존재하지 않습니다." % srcfile)
 
 
 
