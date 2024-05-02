@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Array\bin\Debug\Array.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Array\bin\Debug\Array.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Array\bin\Debug\Array.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Array\obj\Debug\Array.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Array\obj\Debug\Array.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Array\obj\Debug\Array.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Array\obj\Debug\Array.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Array\obj\Debug\Array.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Array\obj\Debug\Array.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Array\obj\Debug\Array.pdb

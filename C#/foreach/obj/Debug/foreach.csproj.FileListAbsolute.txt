@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\foreach\bin\Debug\@foreach.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\foreach\bin\Debug\@foreach.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\foreach\bin\Debug\@foreach.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\foreach\obj\Debug\foreach.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\foreach\obj\Debug\foreach.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\foreach\obj\Debug\@foreach.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\foreach\obj\Debug\@foreach.pdb

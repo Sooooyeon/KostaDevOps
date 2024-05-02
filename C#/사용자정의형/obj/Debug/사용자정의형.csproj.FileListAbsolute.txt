@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\사용자정의형\bin\Debug\사용자정의형.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\사용자정의형\bin\Debug\사용자정의형.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\사용자정의형\bin\Debug\사용자정의형.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\사용자정의형\obj\Debug\사용자정의형.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\사용자정의형\obj\Debug\사용자정의형.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\사용자정의형\obj\Debug\사용자정의형.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\사용자정의형\obj\Debug\사용자정의형.pdb
