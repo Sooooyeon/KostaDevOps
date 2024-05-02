@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{DFABBA4B-D33E-44DA-A162-02D453AEAAE6}|Array.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFABBA4B-D33E-44DA-A162-02D453AEAAE6}|Array.csproj|c:\\users\\kosta\\desktop\\\uC7A5\uC218\uC5F0\\kostadevops\\c#\\array\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DFABBA4B-D33E-44DA-A162-02D453AEAAE6}|Array.csproj|C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\Array\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DFABBA4B-D33E-44DA-A162-02D453AEAAE6}|Array.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\Array\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAUwAwAAAAlAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T01:09:11.493Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\Array\\Form1.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T01:04:24.608Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2024-05-02T01:04:24.608Z"
             }
           ]
         }

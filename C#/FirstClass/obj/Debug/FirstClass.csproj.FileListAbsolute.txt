@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FirstClass\bin\Debug\FirstClass.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FirstClass\bin\Debug\FirstClass.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FirstClass\bin\Debug\FirstClass.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FirstClass\obj\Debug\FirstClass.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FirstClass\obj\Debug\FirstClass.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FirstClass\obj\Debug\FirstClass.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FirstClass\obj\Debug\FirstClass.pdb
