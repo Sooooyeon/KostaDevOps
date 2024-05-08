@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\인터페이스\bin\Debug\인터페이스.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\인터페이스\bin\Debug\인터페이스.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\인터페이스\bin\Debug\인터페이스.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\인터페이스\obj\Debug\인터페이스.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\인터페이스\obj\Debug\인터페이스.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\인터페이스\obj\Debug\인터페이스.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\인터페이스\obj\Debug\인터페이스.pdb

@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\추상클래스\bin\Debug\추상클래스.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\추상클래스\bin\Debug\추상클래스.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\추상클래스\bin\Debug\추상클래스.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\추상클래스\obj\Debug\추상클래스.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\추상클래스\obj\Debug\추상클래스.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\추상클래스\obj\Debug\추상클래스.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\추상클래스\obj\Debug\추상클래스.pdb
