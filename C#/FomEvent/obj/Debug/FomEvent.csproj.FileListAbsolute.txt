@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FomEvent\bin\Debug\FomEvent.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FomEvent\bin\Debug\FomEvent.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FomEvent\bin\Debug\FomEvent.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FomEvent\obj\Debug\FomEvent.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FomEvent\obj\Debug\FomEvent.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FomEvent\obj\Debug\FomEvent.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\FomEvent\obj\Debug\FomEvent.pdb

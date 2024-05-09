@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콜백메서드\bin\Debug\콜백메서드.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콜백메서드\bin\Debug\콜백메서드.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콜백메서드\bin\Debug\콜백메서드.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콜백메서드\obj\Debug\콜백메서드.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콜백메서드\obj\Debug\콜백메서드.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콜백메서드\obj\Debug\콜백메서드.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콜백메서드\obj\Debug\콜백메서드.pdb

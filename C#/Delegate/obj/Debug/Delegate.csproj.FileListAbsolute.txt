@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Delegate\bin\Debug\Delegate.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Delegate\bin\Debug\Delegate.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Delegate\bin\Debug\Delegate.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Delegate\obj\Debug\Delegate.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Delegate\obj\Debug\Delegate.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Delegate\obj\Debug\Delegate.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\Delegate\obj\Debug\Delegate.pdb

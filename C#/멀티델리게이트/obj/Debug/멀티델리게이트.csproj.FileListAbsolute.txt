@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\멀티델리게이트\obj\Debug\멀티델리게이트.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\멀티델리게이트\obj\Debug\멀티델리게이트.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\멀티델리게이트\bin\Debug\멀티델리게이트.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\멀티델리게이트\bin\Debug\멀티델리게이트.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\멀티델리게이트\bin\Debug\멀티델리게이트.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\멀티델리게이트\obj\Debug\멀티델리게이트.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\멀티델리게이트\obj\Debug\멀티델리게이트.pdb

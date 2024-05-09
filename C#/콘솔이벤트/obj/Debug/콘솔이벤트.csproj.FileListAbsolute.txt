@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콘솔이벤트\bin\Debug\콘솔이벤트.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콘솔이벤트\bin\Debug\콘솔이벤트.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콘솔이벤트\bin\Debug\콘솔이벤트.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콘솔이벤트\obj\Debug\콘솔이벤트.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콘솔이벤트\obj\Debug\콘솔이벤트.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콘솔이벤트\obj\Debug\콘솔이벤트.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\콘솔이벤트\obj\Debug\콘솔이벤트.pdb

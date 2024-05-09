@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\아카이브\bin\Debug\아카이브.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\아카이브\bin\Debug\아카이브.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\아카이브\bin\Debug\아카이브.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\아카이브\obj\Debug\아카이브.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\아카이브\obj\Debug\아카이브.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\아카이브\obj\Debug\아카이브.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\아카이브\obj\Debug\아카이브.pdb
