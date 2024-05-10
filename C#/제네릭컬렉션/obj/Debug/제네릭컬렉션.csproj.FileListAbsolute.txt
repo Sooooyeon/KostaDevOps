@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\제네릭컬렉션\bin\Debug\제네릭컬렉션.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\제네릭컬렉션\bin\Debug\제네릭컬렉션.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\제네릭컬렉션\bin\Debug\제네릭컬렉션.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\제네릭컬렉션\obj\Debug\제네릭컬렉션.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\제네릭컬렉션\obj\Debug\제네릭컬렉션.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\제네릭컬렉션\obj\Debug\제네릭컬렉션.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\제네릭컬렉션\obj\Debug\제네릭컬렉션.pdb

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\\uCEEC\uB809\uC158\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC550F04-952B-4B20-8C0A-78CCCF3E5A93}|\uCEEC\uB809\uC158.csproj|c:\\users\\kosta\\desktop\\\uC7A5\uC218\uC5F0\\kostadevops\\c#\\\uCEEC\uB809\uC158\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC550F04-952B-4B20-8C0A-78CCCF3E5A93}|\uCEEC\uB809\uC158.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\\uCEEC\uB809\uC158\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\\uCEEC\uB809\uC158\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAADwv2cAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T00:33:26.161Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

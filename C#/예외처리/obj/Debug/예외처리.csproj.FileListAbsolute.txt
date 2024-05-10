@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\예외처리\bin\Debug\예외처리.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\예외처리\bin\Debug\예외처리.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\예외처리\bin\Debug\예외처리.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\예외처리\obj\Debug\예외처리.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\예외처리\obj\Debug\예외처리.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\예외처리\obj\Debug\예외처리.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\예외처리\obj\Debug\예외처리.pdb
