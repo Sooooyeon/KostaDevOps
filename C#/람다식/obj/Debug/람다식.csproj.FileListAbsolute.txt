@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\람다식\bin\Debug\람다식.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\람다식\bin\Debug\람다식.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\람다식\bin\Debug\람다식.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\람다식\obj\Debug\람다식.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\람다식\obj\Debug\람다식.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\람다식\obj\Debug\람다식.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\람다식\obj\Debug\람다식.pdb

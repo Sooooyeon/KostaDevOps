@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\익명메소드\bin\Debug\익명메소드.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\익명메소드\bin\Debug\익명메소드.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\익명메소드\bin\Debug\익명메소드.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\익명메소드\obj\Debug\익명메소드.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\익명메소드\obj\Debug\익명메소드.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\익명메소드\obj\Debug\익명메소드.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\익명메소드\obj\Debug\익명메소드.pdb
