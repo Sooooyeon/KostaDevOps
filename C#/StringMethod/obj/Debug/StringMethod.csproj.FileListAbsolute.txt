@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\StringMethod\bin\Debug\StringMethod.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\StringMethod\bin\Debug\StringMethod.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\StringMethod\bin\Debug\StringMethod.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\StringMethod\obj\Debug\StringMethod.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\StringMethod\obj\Debug\StringMethod.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\StringMethod\obj\Debug\StringMethod.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\StringMethod\obj\Debug\StringMethod.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\StringMethod\obj\Debug\StringMethod.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\StringMethod\obj\Debug\StringMethod.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\StringMethod\obj\Debug\StringMethod.pdb

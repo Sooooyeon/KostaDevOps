@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\DLLTest\bin\Debug\DLLTest.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\DLLTest\bin\Debug\DLLTest.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\DLLTest\bin\Debug\DLLTest.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\DLLTest\bin\Debug\ClassLibrary1.dll
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\DLLTest\bin\Debug\ClassLibrary1.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\DLLTest\obj\Debug\DLLTest.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\DLLTest\obj\Debug\DLLTest.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\DLLTest\obj\Debug\DLLTest.csproj.Up2Date
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\DLLTest\obj\Debug\DLLTest.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\DLLTest\obj\Debug\DLLTest.pdb

@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
