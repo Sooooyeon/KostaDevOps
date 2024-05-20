@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드상태폼\bin\Debug\스레드상태폼.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드상태폼\bin\Debug\스레드상태폼.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드상태폼\bin\Debug\스레드상태폼.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드상태폼\obj\Debug\스레드상태폼.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드상태폼\obj\Debug\스레드상태폼.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드상태폼\obj\Debug\스레드상태폼.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드상태폼\obj\Debug\스레드상태폼.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드상태폼\obj\Debug\스레드상태폼.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드상태폼\obj\Debug\스레드상태폼.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드상태폼\obj\Debug\스레드상태폼.pdb

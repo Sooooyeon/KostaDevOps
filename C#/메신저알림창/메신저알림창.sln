@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "메신저알림창", "메신저알림창.csproj", "{8FA02D75-DE1C-410F-A7F2-83AB278281E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FA02D75-DE1C-410F-A7F2-83AB278281E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA02D75-DE1C-410F-A7F2-83AB278281E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA02D75-DE1C-410F-A7F2-83AB278281E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA02D75-DE1C-410F-A7F2-83AB278281E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C25D6EB-01B7-48A5-B776-67529A29E574}
+	EndGlobalSection
+EndGlobal

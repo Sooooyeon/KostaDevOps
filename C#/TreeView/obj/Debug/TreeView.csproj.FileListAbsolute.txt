@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\TreeView\bin\Debug\TreeView.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\TreeView\bin\Debug\TreeView.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\TreeView\bin\Debug\TreeView.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\TreeView\obj\Debug\TreeView.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\TreeView\obj\Debug\TreeView.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\TreeView\obj\Debug\TreeView.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\TreeView\obj\Debug\TreeView.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\TreeView\obj\Debug\TreeView.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\TreeView\obj\Debug\TreeView.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\TreeView\obj\Debug\TreeView.pdb

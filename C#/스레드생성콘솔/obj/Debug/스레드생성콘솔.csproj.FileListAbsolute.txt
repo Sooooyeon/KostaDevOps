@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드생성콘솔\bin\Debug\스레드생성콘솔.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드생성콘솔\bin\Debug\스레드생성콘솔.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드생성콘솔\bin\Debug\스레드생성콘솔.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드생성콘솔\obj\Debug\스레드생성콘솔.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드생성콘솔\obj\Debug\스레드생성콘솔.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드생성콘솔\obj\Debug\스레드생성콘솔.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\스레드생성콘솔\obj\Debug\스레드생성콘솔.pdb

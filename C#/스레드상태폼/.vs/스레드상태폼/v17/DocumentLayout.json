@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\\uC2A4\uB808\uB4DC\uC0C1\uD0DC\uD3FC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6222A8B3-1426-4D89-A44A-BCEC9D59C7FD}|\uC2A4\uB808\uB4DC\uC0C1\uD0DC\uD3FC.csproj|c:\\users\\kosta\\desktop\\\uC7A5\uC218\uC5F0\\kostadevops\\c#\\\uC2A4\uB808\uB4DC\uC0C1\uD0DC\uD3FC\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6222A8B3-1426-4D89-A44A-BCEC9D59C7FD}|\uC2A4\uB808\uB4DC\uC0C1\uD0DC\uD3FC.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6222A8B3-1426-4D89-A44A-BCEC9D59C7FD}|\uC2A4\uB808\uB4DC\uC0C1\uD0DC\uD3FC.csproj|c:\\users\\kosta\\desktop\\\uC7A5\uC218\uC5F0\\kostadevops\\c#\\\uC2A4\uB808\uB4DC\uC0C1\uD0DC\uD3FC\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6222A8B3-1426-4D89-A44A-BCEC9D59C7FD}|\uC2A4\uB808\uB4DC\uC0C1\uD0DC\uD3FC.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\\uC2A4\uB808\uB4DC\uC0C1\uD0DC\uD3FC\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\\uC2A4\uB808\uB4DC\uC0C1\uD0DC\uD3FC\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T02:28:03.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\\uC2A4\uB808\uB4DC\uC0C1\uD0DC\uD3FC\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\KOSTA\\Desktop\\\uC7A5\uC218\uC5F0\\KostaDevOps\\C#\\\uC2A4\uB808\uB4DC\uC0C1\uD0DC\uD3FC\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T02:25:48.117Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

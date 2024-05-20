@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WebBrowser\bin\Debug\WebBrowser.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WebBrowser\bin\Debug\WebBrowser.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WebBrowser\bin\Debug\WebBrowser.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WebBrowser\obj\Debug\WebBrowser.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WebBrowser\obj\Debug\WebBrowser.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WebBrowser\obj\Debug\WebBrowser.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WebBrowser\obj\Debug\WebBrowser.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WebBrowser\obj\Debug\WebBrowser.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WebBrowser\obj\Debug\WebBrowser.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\WebBrowser\obj\Debug\WebBrowser.pdb

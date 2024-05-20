@@ -1,0 +1,12 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\bin\Debug\대화상자.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\bin\Debug\대화상자.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\bin\Debug\대화상자.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\obj\Debug\대화상자.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\obj\Debug\대화상자.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\obj\Debug\대화상자.ModalessForm.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\obj\Debug\대화상자.ModalForm.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\obj\Debug\대화상자.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\obj\Debug\대화상자.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\obj\Debug\대화상자.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\obj\Debug\대화상자.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\대화상자\obj\Debug\대화상자.pdb

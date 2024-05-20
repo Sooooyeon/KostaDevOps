@@ -1,0 +1,10 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\타이머\bin\Debug\타이머.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\타이머\bin\Debug\타이머.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\타이머\bin\Debug\타이머.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\타이머\obj\Debug\타이머.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\타이머\obj\Debug\타이머.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\타이머\obj\Debug\타이머.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\타이머\obj\Debug\타이머.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\타이머\obj\Debug\타이머.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\타이머\obj\Debug\타이머.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\타이머\obj\Debug\타이머.pdb

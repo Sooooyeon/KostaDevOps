@@ -1,0 +1,11 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\메신저알림창\bin\Debug\메신저알림창.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\메신저알림창\bin\Debug\메신저알림창.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\메신저알림창\bin\Debug\메신저알림창.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\메신저알림창\obj\Debug\메신저알림창.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\메신저알림창\obj\Debug\메신저알림창.Form1.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\메신저알림창\obj\Debug\메신저알림창.MsgForm.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\메신저알림창\obj\Debug\메신저알림창.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\메신저알림창\obj\Debug\메신저알림창.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\메신저알림창\obj\Debug\메신저알림창.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\메신저알림창\obj\Debug\메신저알림창.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\메신저알림창\obj\Debug\메신저알림창.pdb
