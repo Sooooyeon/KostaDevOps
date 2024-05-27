@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="button" value="버튼" id="btnclk">
+  <div id="result"></div>
+  <script>
+    // function first(){
+    //   alert('첫 번째 메시지')
+    // }
+
+    // // btnclk.onclick = function (){
+    // //   alert('버튼 클릭');
+    // // }
+
+    // btnclk.addEventListener('click', first);
+    // btnclk.addEventListener('click', function (){
+    //   alert('버튼 클릭');
+    // });
+
+    // btnclk.removeEventListener('click',first);
+
+
+    // 객체형 이벤트 핸들러
+    // let obj = {
+    //   handleEvent(event){
+    //     //alert('버튼 클릭');
+    //     alert(event.type);
+    //     alert(event.clientX);
+    //     alert(event.clientY);
+    //   }
+    // }
+
+    // btnclk.addEventListener('click',obj);
+
+    class Mouse{
+      handleEvent(event){
+        switch(event.type){
+          case 'mousedown':
+            result.innerHTML = "마우스 버트 누름";
+            break;
+          case 'mouseup':
+            result.innerHTML = "마우스 버트 놓음";
+            break;
+        }
+      }
+    }
+
+    var mouse = new Mouse();
+    btnclk.addEventListener('mousedown', mouse);
+    btnclk.addEventListener('mouseup', mouse);
+
+  </script>
+</body>
+</html>
