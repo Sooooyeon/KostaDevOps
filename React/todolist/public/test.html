@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+  <div className="App"></div>
+  <script>
+    const appDiv = document.createElement('div');
+    appDiv.className = 'App';
+
+    const h1 = document.createElement('h1');
+    h1.textContent = 'Hello';
+
+    const p = document.createElement('p');
+    p.textContent = 'React';
+
+    appDiv.appendChild(h1);
+    appDiv.appendChild(p);
+
+    document.getElementById('root').appendChild(appDiv);
+  </script>
+</body>
+</html>
