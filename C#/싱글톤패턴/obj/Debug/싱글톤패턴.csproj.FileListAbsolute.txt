@@ -1,0 +1,7 @@
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\싱글톤패턴\bin\Debug\싱글톤패턴.exe.config
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\싱글톤패턴\bin\Debug\싱글톤패턴.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\싱글톤패턴\bin\Debug\싱글톤패턴.pdb
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\싱글톤패턴\obj\Debug\싱글톤패턴.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\싱글톤패턴\obj\Debug\싱글톤패턴.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\싱글톤패턴\obj\Debug\싱글톤패턴.exe
+C:\Users\KOSTA\Desktop\장수연\KostaDevOps\C#\싱글톤패턴\obj\Debug\싱글톤패턴.pdb
