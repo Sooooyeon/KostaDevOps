@@ -174,16 +174,36 @@ function setInfo(student) {
 // }
 //printEmployee('lee', 30, 'programmer',300);
 var Employee = /** @class */ (function () {
-    function Employee() {
+    function Employee(fullName, age, job, pay) {
         var _this = this;
         this.printEmployee = function () {
-            console.log('이름 : ' + _this.fullName);
+            console.log('이름 : ' + _this._fullName);
             console.log('나이 : ' + _this.age);
             console.log('하는 일 : ' + _this.job);
             console.log('급여 : ' + _this.pay);
         };
+        this._fullName = fullName;
+        this.age = age;
+        this.job = job;
+        this.pay = pay;
     }
+    Object.defineProperty(Employee.prototype, "fullName", {
+        // getter
+        get: function () {
+            return this._fullName;
+        },
+        // setter
+        set: function (value) {
+            this._fullName = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
     return Employee;
 }());
-var employee = new Employee();
+var employee = new Employee('lee', 20, 'developer', 300);
 employee.printEmployee();
+employee.fullName = 'park'; // setter 로 접근
+employee.printEmployee();
+console.log(employee.fullName);
+// private, public, protected

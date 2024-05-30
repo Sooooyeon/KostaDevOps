@@ -250,18 +250,45 @@ function setInfo(student : Student) : void{
 //printEmployee('lee', 30, 'programmer',300);
 
 class Employee{
-  fullName : string;
+  private _fullName : string;
   age : number;
   job : string;
   pay : number;
 
+  constructor(fullName : string, age : number, job : string, pay : number){
+    this._fullName = fullName;
+    this.age = age;
+    this.job = job;
+    this.pay = pay;
+  }
+
+  // getter
+  get fullName(){
+    return this._fullName;
+  }
+
+  // setter
+  set fullName(value:string){
+    this._fullName = value;
+  }
+
   printEmployee = ():void => {
-    console.log('이름 : ' + this.fullName);
+    console.log('이름 : ' + this._fullName);
     console.log('나이 : ' + this.age);
     console.log('하는 일 : ' + this.job);
     console.log('급여 : ' + this.pay);
   }
+
+
+
 }
 
-let employee = new Employee();
+let employee = new Employee('lee',20,'developer',300);
 employee.printEmployee();
+employee.fullName = 'park'; // setter 로 접근
+employee.printEmployee();
+console.log(employee.fullName);
+
+
+
+// private, public, protected
