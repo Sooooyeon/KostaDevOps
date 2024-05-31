@@ -10,4 +10,4 @@ class ClassCom extends Component{
   }
 }
 
-export default ClassCom
+export default ClassCom;

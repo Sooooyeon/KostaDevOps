@@ -1,9 +1,24 @@
-.test{
-  background-color: pink;
-  color : blue;
-  font-size: 40px;
+.board{
+  background-color: rgb(241, 255, 222);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+  margin: 10px;
+}
+
+.board ul li{
+  list-style: none;
+  padding: 5px 0;
+}
+.container{
+  background-color: aliceblue;
+  color : rgb(4, 4, 48);
+  font-size: 36px;
   font-weight: bold;
-  padding: 16px;
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
+
 }
 
 .App {
