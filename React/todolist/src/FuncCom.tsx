@@ -8,17 +8,25 @@ import React, { useState } from "react"
 //     )
 // }
 
-const FuncCom = () =>  {
-    const [fruits, setFruits] = useState(['apple','banana','orange']);
+// type은 기존에 있는것을 묶어놓은 것, interface는 새로운 객체
+interface MyTestProps{
+    weather : string;
+    children : React.ReactNode;
+}
 
-    let data1 = [1,2,3];
-    // let data2 = data1; // shallow copy, 얕은 복사
-    let data2 = [...data1]; // deep copy, 깊은 복사
-    console.log(data1 === data2); 
+const FuncCom : React.FC<MyTestProps> = ({children, weather}) =>  {
+    // const [fruits, setFruits] = useState(['apple','banana','orange']);
+
+    // let data1 = [1,2,3];
+    // // let data2 = data1; // shallow copy, 얕은 복사
+    // let data2 = [...data1]; // deep copy, 깊은 복사
+    // console.log(data1 === data2); 
+
+    // const {children, weather} = props;
 
     return(
         <div>
-            <ul>
+            {/* <ul>
                 {
                     fruits.map((fruit, index)=>(
                         <li key={index}>{fruit}</li>
@@ -35,7 +43,8 @@ const FuncCom = () =>  {
                     console.log(copy);
                 }}>수정</button>
                 {fruits}
-            </div>
+            </div> */}
+            {children}오늘의 날씨는 {weather}입니다.
         </div>
     )
 }

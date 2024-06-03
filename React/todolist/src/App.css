@@ -1,3 +1,7 @@
+.btn{
+margin: 5px;
+}
+
 .board{
   background-color: rgb(241, 255, 222);
   border-radius: 8px;
@@ -6,9 +10,21 @@
   margin: 10px;
 }
 
+.clock {
+  background-color: rgb(255, 236, 175);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+}
+
 .board ul li{
   list-style: none;
   padding: 5px 0;
+}
+
+.totoText{
+  
 }
 .container{
   background-color: aliceblue;
@@ -18,7 +34,6 @@
   padding: 20px;
   text-align: center;
   max-width: 800px;
-
 }
 
 .App {

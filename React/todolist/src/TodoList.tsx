@@ -4,7 +4,7 @@ import React, { useState } from "react"
 // 2. props
 // 3. hooks = use로 시작하는 함수
 
-import Button from 'react-bootstrap/Button';
+import {Button, Modal} from 'react-bootstrap';
 
 // type : 기존타입을 베이스로 새로운 타입 생성
 // interface : 새로운 객체 구조
@@ -29,6 +29,9 @@ const TodoList: React.FC = () => {
     ]);
 
     const [newTodo, setNewTodo] = useState<string>("");
+
+    const [showDetail, setShowDetail] = useState<boolean>(false);
+    const [selectedTodo, setSelectedTodo] = useState<Todo | null>(null);
     
     const handleCheckboxChange = (itmeId : number) => {
         setTodos((prevItems)=> // 기존 데이터를 순회
@@ -38,6 +41,28 @@ const TodoList: React.FC = () => {
         ); 
     }
 
+    const addTodo = () => {
+        // newTodo를 todos에 추가
+        if(newTodo.trim() !== ""){
+            setTodos([...todos, {id:Date.now(), text:newTodo, isChecked:false}]);
+            setNewTodo("");
+        }
+    }
+
+    const removeTodo = (id:number) => {
+        setTodos(todos.filter((user)=>{
+            return user.id !== id;
+        }))
+    }
+
+    const handleTodoClick = (todo : Todo) => {
+        setShowDetail(true);
+        setSelectedTodo(todo);
+    }
+
+    const handleCloseDetail = () => {
+        setShowDetail(false);
+    }
 
     return (
         <div>
@@ -48,7 +73,7 @@ const TodoList: React.FC = () => {
                 onChange={(e)=>{setNewTodo(e.target.value)}}
                 style = {{ marginRight : '10px',
                     writingMode : 'horizontal-tb'} }/>
-                <Button variant="warning"onClick={()=>{}}>추가</Button>
+                <Button variant="warning"onClick={addTodo}>추가</Button>
             </div>
             <div className="board">
                 <ul>
@@ -60,13 +85,34 @@ const TodoList: React.FC = () => {
                                         handleCheckboxChange(todo.id);
                                     }} 
                                 />
-                                <span>{todo.isChecked ? <del>{todo.text}</del> : <span>{todo.text}</span>}</span>
-                                
+                                <span>{todo.isChecked ? <del>{todo.text}</del> 
+                                :   <span onClick={()=> handleTodoClick(todo)}>
+                                        <span>
+                                            {todo.text}
+                                        </span>
+                                    </span>}
+                                </span>
+                                <Button variant="danger" onClick={()=>{
+                                    removeTodo(todo.id);
+                                }}>삭제</Button>
                             </li>
                         ))
                     }
                 </ul>
             </div>
+            {
+                selectedTodo && (
+                    <Modal show={showDetail} onHide={()=>{handleCloseDetail()}} centered>
+                        <Modal.Header closeButton>
+                            <Modal.Title>상세정보</Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                            {selectedTodo.text}의 자세한 정보를 출력합니다.
+                            <p>현재날짜 : {new Date().toLocaleDateString()}</p>
+                        </Modal.Body>
+                    </Modal>
+                )
+            }
         </div>
     )
 }
