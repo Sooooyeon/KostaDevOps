@@ -3,7 +3,7 @@ margin: 5px;
 }
 
 .board{
-  background-color: rgb(241, 255, 222);
+  background-color: rgb(253, 255, 233);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -27,7 +27,7 @@ margin: 5px;
   
 }
 .container{
-  background-color: aliceblue;
+  background-color: rgb(244, 250, 255);
   color : rgb(4, 4, 48);
   font-size: 36px;
   font-weight: bold;

@@ -5,6 +5,7 @@ import React, { useState } from "react"
 // 3. hooks = use로 시작하는 함수
 
 import {Button, Modal} from 'react-bootstrap';
+import TodoModal from "./TodoModal";
 
 // type : 기존타입을 베이스로 새로운 타입 생성
 // interface : 새로운 객체 구조
@@ -100,19 +101,7 @@ const TodoList: React.FC = () => {
                     }
                 </ul>
             </div>
-            {
-                selectedTodo && (
-                    <Modal show={showDetail} onHide={()=>{handleCloseDetail()}} centered>
-                        <Modal.Header closeButton>
-                            <Modal.Title>상세정보</Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                            {selectedTodo.text}의 자세한 정보를 출력합니다.
-                            <p>현재날짜 : {new Date().toLocaleDateString()}</p>
-                        </Modal.Body>
-                    </Modal>
-                )
-            }
+            <TodoModal show = {showDetail} handleClose = {handleCloseDetail} todo = {selectedTodo}></TodoModal>
         </div>
     )
 }
