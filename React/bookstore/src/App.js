@@ -5,11 +5,14 @@ import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import { useState } from "react";
 import DetailPage from './pages/DetailPage';
 import About from './pages/About';
+import axios from 'axios';
 
 function App() {
 
   let [books, setBooks] = useState(bookData);
   let navigate = useNavigate();
+  let [btnIcon, setBtnIcon] = useState("▼");
+  let [expands, setExpands] = useState(false);
 
   return (
     <div className="App">
@@ -26,7 +29,7 @@ function App() {
         </Container>
       </Navbar>
       <Routes>
-        <Route path='/detail/:id' element = {<DetailPage></DetailPage>}></Route>
+        <Route path='/detail/:id' element = {<DetailPage books = {books}></DetailPage>}></Route>
         <Route path='/' element = {
           <div>
             <div className="HomeImg"></div>
@@ -41,6 +44,24 @@ function App() {
                 })}
               </Row>
             </Container>
+            <Button variant='warning' onClick={()=>{
+              expands === false ?
+              axios.get('https://jamsuham75.github.io/image/data2.json')
+              .then((result)=>{
+                console.log(result.data);
+                let copy = [...books, ...result.data];
+                setBooks(copy);
+                setExpands(true);
+                setBtnIcon("▲")
+              }).catch((err)=>{
+                console.log(err);
+              }) 
+              : 
+              window.location.reload();
+              setExpands(false);
+              setBtnIcon("▼")
+
+            }}>{btnIcon}</Button>
           </div>
         }></Route>
         {/* 404페이지 */}
