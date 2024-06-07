@@ -20,10 +20,12 @@ const app = express(); // 서버 객체를 받음
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended:true}));
 
+app.set('view engine','ejs');
+
 // mongoDB 연동
 let mydb;
 const mongoClent = require('mongodb').MongoClient;
-const url = 'mongodb+srv://tn56dus:gHDnJ2gU1hnctFD@cluster0.shgya4b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const url = 'mongodb+srv://tn56dus:VgHDnJ2gU1hnctFD@cluster0.shgya4b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 mongoClent.connect(url).then(client=>{
     console.log('몽고DB 접속');
     mydb = client.db('myboard');
@@ -94,9 +96,14 @@ app.get('/list',function(req, res){
     //     console.log(rows);
     // });
 
-    res.send('list')
-
+    
+    // MongoDB
     mydb.collection('post').find().toArray().then((result)=>{
         console.log(result);
+        res.render('list.ejs', {data : result});
     })
+
+
+    // res.sendFile(__dirname + '/list.html');
+    
 });
