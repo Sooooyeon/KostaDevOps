@@ -39,6 +39,7 @@ mongoClent.connect(url).then(client=>{
     });
 })
 
+const ObjId = require('mongodb').ObjectId;
 
 // 8080으로 접근하면 실행
 // app.listen(8080, function(){
@@ -57,13 +58,15 @@ app.get('/',function(req, res){
 });
 
 app.get('/enter',function(req, res){
-    res.sendFile(__dirname + '/enter.html');
+    // res.sendFile(__dirname + '/enter.html');
+    res.render('enter.ejs');
 });
 
 app.post('/save',function(req, res){
     console.log(req.body);
     console.log(req.body.title);
     console.log(req.body.content);
+    console.log(req.body.someDate);
 
     // MySQL에 저장
     // let sql = "insert into post (title, content, created) \
@@ -78,7 +81,7 @@ app.post('/save',function(req, res){
 
     // 몽고DB에 데이터 저장
     mydb.collection('post').insertOne(
-        {title : req.body.title, content : req.body.content}
+        {title : req.body.title, content : req.body.content, date : req.body.someDate}
     ).then((result)=>{
         console.log(result);
         console.log('데이터 저장완료');
@@ -99,11 +102,39 @@ app.get('/list',function(req, res){
     
     // MongoDB
     mydb.collection('post').find().toArray().then((result)=>{
-        console.log(result);
+        //console.log(result);
         res.render('list.ejs', {data : result});
     })
 
 
     // res.sendFile(__dirname + '/list.html');
     
+});
+
+app.post('/delete',function(req, res){
+    console.log(req.body._id);
+    req.body._id = new ObjId(req.body._id); // 문자열 아이디를 객체로 변환
+    console.log(req.body._id);
+
+    mydb.collection('post').deleteOne(req.body)
+    .then((result)=>{
+        console.log('삭제완료');
+        res.status(200).send();
+    })
+    .catch(err=>{
+        console.log(err);
+        res.status(500).send();
+    })
+});
+
+
+app.get('/content/:id', function(req, res){
+    console.log(req.params.id);
+
+    const id = new ObjId(req.params.id);
+    mydb.collection('post').findOne({_id : id})
+    .then((result)=>{
+        console.log(result);
+        res.render('content.ejs', {data:result});
+    })
 });
