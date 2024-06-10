@@ -1,17 +1,23 @@
-import { useEffect, useState } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { tab } from "@testing-library/user-event/dist/tab";
+import { useContext, useEffect, useState } from "react";
+import { Button, Col, Container, Nav, Row } from "react-bootstrap";
 import { useParams } from "react-router";
 // import mystyle from 'styled-components';
+import { contextStorage } from "../App";
 
 
 function DetailPage(props){
+  let ctx = useContext(contextStorage);
+  console.log(ctx?.stock);
+
   const {id} = useParams();
   const findBook = props.books.find((book)=>{
     return book.id == id;
   })
 
   const [discount, setDiscount] = useState(true);
-  
+  const [tab, setTab] = useState(0);
+
   let timer;
 
   useEffect(()=>{
@@ -55,8 +61,39 @@ function DetailPage(props){
 
       {/* <TeamBtn bg ="blue">팀버튼</TeamBtn>
       <TeamBtn bg ="red">팀버튼</TeamBtn> */}
+
+        <Nav variant="tabs" defaultActiveKey="link-0">
+          <Nav.Item>
+            <Nav.Link onClick={()=>setTab(0)} eventKey="link-0">도서정보</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link onClick={()=>setTab(1)} eventKey="link-1">리뷰</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link onClick={()=>setTab(2)} eventKey="link-2">배송/반품</Nav.Link>
+          </Nav.Item>
+        </Nav>
+    <TabComponent tab={tab}></TabComponent>
+
     </Container>
   )
+}
+
+function TabComponent({tab})
+{
+  // if(tab == 0){
+  //   return <div>도서정보입니다.</div>
+  // } else if(tab ==1) {
+  //   return <div>배송이 빨랐어요</div>
+  // } else if(tab ==2) {
+  //   return <div>로켓배송이 됩니다.</div>
+  // }
+  let ctx = useContext(contextStorage);
+  console.log(ctx?.stock);
+
+  return [<div>도서정보입니다.{ctx?.stock}</div>,
+          <div>배송이 빨랐어요</div>,
+          <div>로켓배송이 됩니다.</div>][tab];
 }
 
 class DetailPage2 extends Comment{
@@ -66,7 +103,7 @@ class DetailPage2 extends Comment{
 
   componentDidUpdate(){
 
-  }
+  }   
 
   componentWillUnmount(){
 

@@ -2,10 +2,12 @@ import './App.css';
 import bookData from './data/data';
 import { Routes, Route, Link, useNavigate, Outlet } from 'react-router-dom';
 import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
-import { useState } from "react";
+import { createContext, useState } from "react";
 import DetailPage from './pages/DetailPage';
 import About from './pages/About';
 import axios from 'axios';
+
+export let contextStorage = createContext(0);
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
   let navigate = useNavigate();
   let [btnIcon, setBtnIcon] = useState("▼");
   let [expands, setExpands] = useState(false);
+
+  let [stock] = useState([1,2,3]);
 
   return (
     <div className="App">
@@ -29,7 +33,11 @@ function App() {
         </Container>
       </Navbar>
       <Routes>
-        <Route path='/detail/:id' element = {<DetailPage books = {books}></DetailPage>}></Route>
+        <Route path='/detail/:id' element = {
+          <contextStorage.Provider value={{stock, books}}>
+            <DetailPage books = {books}></DetailPage>
+          </contextStorage.Provider>}>
+        </Route>
         <Route path='/' element = {
           <div>
             <div className="HomeImg"></div>
@@ -46,6 +54,7 @@ function App() {
             </Container>
             <Button variant='warning' onClick={()=>{
               expands === false ?
+              // axios.post('/요청경로',{name:'kim'});
               axios.get('https://jamsuham75.github.io/image/data2.json')
               .then((result)=>{
                 console.log(result.data);
