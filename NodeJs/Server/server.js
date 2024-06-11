@@ -85,10 +85,9 @@ app.post('/save',function(req, res){
     ).then((result)=>{
         console.log(result);
         console.log('데이터 저장완료');
+        res.redirect('/list');
     })
 
-
-    res.send('데이터 저장완료');
 
 });
 
@@ -136,5 +135,35 @@ app.get('/content/:id', function(req, res){
     .then((result)=>{
         console.log(result);
         res.render('content.ejs', {data:result});
+    })
+});
+
+app.get('/edit/:id',function(req, res){
+    const id = new ObjId(req.params.id);
+    mydb.collection('post').findOne({_id : id})
+    .then((result)=>{
+        console.log(result);
+        res.render('edit.ejs', {data:result});
+    })
+});
+
+app.post('/edit',function(req, res){
+
+    console.log(req.body);
+    console.log(req.body.id);
+    console.log(req.params.id);
+    const id = new ObjId(req.params.id);
+
+    // 몽고DB에 데이터 저장
+    mydb.collection('post').updateOne(
+        {_id : id},
+        {$set : {title : req.body.title, content : req.body.content, date : req.body.someDate}}
+    ).then((result)=>{
+        console.log(result);
+        console.log('수정완료');
+        res.redirect('/list');
+    })
+    .catch((err)=>{
+        console.log(err);
     })
 });
