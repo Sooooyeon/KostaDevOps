@@ -1,9 +1,11 @@
 import { tab } from "@testing-library/user-event/dist/tab";
 import { useContext, useEffect, useState } from "react";
 import { Button, Col, Container, Nav, Row } from "react-bootstrap";
-import { useParams } from "react-router";
+import { useNavigate, useParams } from "react-router";
 // import mystyle from 'styled-components';
 import { contextStorage } from "../App";
+import { addItem } from "../store";
+import { useDispatch, useSelector } from "react-redux";
 
 
 function DetailPage(props){
@@ -18,25 +20,30 @@ function DetailPage(props){
   const [discount, setDiscount] = useState(true);
   const [tab, setTab] = useState(0);
 
-  let timer;
+  const dispatch = useDispatch(); 
+  const navigate = useNavigate();
 
-  useEffect(()=>{
-    const fetchData = async () => {
-      // for(let i = 0; i<1000; i++){
-      //   console.log('test');
-      timer = setTimeout(()=>{setDiscount(false)}, 3000);
-      // }
-    }
-    fetchData();
-    console.log(2);
 
-    return()=>{
-      console.log(1);
-      clearTimeout(timer);
-    }
+
+  // let timer;
+
+  // useEffect(()=>{
+  //   const fetchData = async () => {
+  //     // for(let i = 0; i<1000; i++){
+  //     //   console.log('test');
+  //     timer = setTimeout(()=>{setDiscount(false)}, 3000);
+  //     // }
+  //   }
+  //   fetchData();
+  //   console.log(2);
+
+  //   return()=>{
+  //     console.log(1);
+  //     clearTimeout(timer);
+  //   }
     // return문을 추가해 useEffect를 실행하기 전에 먼저 실행할 명령을 넣을 수 있음
     // setTimeout(()=>{setDiscount(false)}, 10000);
-    },[]);
+    // },[]);
 
   // let TeamBtn = mystyle.button`
   // background-color: ${(props) => props.bg};
@@ -46,7 +53,7 @@ function DetailPage(props){
 
   return(
     <Container>
-      {discount ? <div className="discount">50% 할인 특가!</div> : null}
+      {/* {discount ? <div className="discount">50% 할인 특가!</div> : null} */}
       <Row>
         <Col>
           <img src={process.env.PUBLIC_URL + `/book${parseInt(id)+1}.jpg`} width="50%" alt='' />
@@ -55,7 +62,12 @@ function DetailPage(props){
           <h5>{findBook.title}</h5>
           <h6>{findBook.content}</h6>
           <p>{findBook.price}</p>
-          <Button>카트에 담기</Button>
+          <Button onClick={()=>{
+            let result = findBook? dispatch((addItem({id:findBook.id, 
+              name: findBook.title}
+            ))) : <div>상품을 찾을 수 없습니다.</div>;
+            navigate('/cart');
+          }}>카트에 담기</Button>
         </Col>
       </Row>
 

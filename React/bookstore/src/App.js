@@ -6,6 +6,9 @@ import { createContext, useState } from "react";
 import DetailPage from './pages/DetailPage';
 import About from './pages/About';
 import axios from 'axios';
+import Cart from './pages/Cart';
+import BestSeller from './pages/BestSeller';
+import Contact from './pages/Contact';
 
 export let contextStorage = createContext(0);
 
@@ -17,6 +20,13 @@ function App() {
   let [expands, setExpands] = useState(false);
 
   let [stock] = useState([1,2,3]);
+
+
+  const bestSeller = [
+    {rank:1, title:'모던자바스크립트&Node.js', img:'5'},
+    {rank:2, title:'나 혼자 C언어', img:'10'},
+    {rank:3, title:'스파크를 이용한 자연어 처리', img:'9'},
+  ];
 
   return (
     <div className="App">
@@ -73,6 +83,9 @@ function App() {
             }}>{btnIcon}</Button>
           </div>
         }></Route>
+        <Route path='/contact' element = {<Contact></Contact>}></Route>
+        <Route path='/bestSeller' element = {<BestSeller bestSeller={bestSeller}></BestSeller>}></Route>
+        <Route path='/cart' element = {<Cart></Cart>}></Route>
         {/* 404페이지 */}
         <Route path='/about' element = {<About></About>}>
           {/* 아래의 요소들(member, location)은 About 컴포넌트안에 Outlet의 위치에 출력됨 */}
