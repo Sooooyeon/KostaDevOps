@@ -16,11 +16,23 @@ const express = require('express');
 const app = express(); // 서버 객체를 받음
 
 
+
+
 // body-parser 라이브러리 추가
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended:true}));
 
+// cookie-parser 라이브러리 추가
+const cookieParser = require('cookie-parser');
+app.use(cookieParser());
+
 app.set('view engine','ejs');
+
+// 정적 파일 라이브러리 추가 (경로 지정시 public이 루트)
+app.use(express.static("public"));
+
+
+
 
 // mongoDB 연동
 let mydb;
@@ -48,13 +60,22 @@ const ObjId = require('mongodb').ObjectId;
 // });
 
 
-app.get('/book',function(req, res){
-    res.send('도서 목록 관련 페이지 입니다.')
-});
+app.get('/cookie',function(req,res){
+
+    let milk = parseInt(req.cookies.milk) + 1000;
+    if(isNaN(milk)){
+        milk = 0;
+    }
+
+    res.cookie('milk',milk,{maxAge:5000}); // cookie(키, 값) 키, 값 형태로 저장
+    res.send('product : ' + milk + "원");
+
+    // res.clearCookie() // 쿠키삭제
+})
 
 // 여기를 루트로 시작
 app.get('/',function(req, res){
-    res.sendFile(__dirname + '/index.html');
+    res.render('index.ejs');
 });
 
 app.get('/enter',function(req, res){
@@ -151,8 +172,7 @@ app.post('/edit',function(req, res){
 
     console.log(req.body);
     console.log(req.body.id);
-    console.log(req.params.id);
-    const id = new ObjId(req.params.id);
+    const id = new ObjId(req.body.id);
 
     // 몽고DB에 데이터 저장
     mydb.collection('post').updateOne(
@@ -167,3 +187,5 @@ app.post('/edit',function(req, res){
         console.log(err);
     })
 });
+
+
