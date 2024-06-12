@@ -9,6 +9,7 @@ import axios from 'axios';
 import Cart from './pages/Cart';
 import BestSeller from './pages/BestSeller';
 import Contact from './pages/Contact';
+import Hooks from './components/Hooks'
 
 export let contextStorage = createContext(0);
 
@@ -30,6 +31,7 @@ function App() {
 
   return (
     <div className="App">
+      <Hooks/>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="/">BookStore</Navbar.Brand>
