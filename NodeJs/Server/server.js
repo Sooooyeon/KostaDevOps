@@ -24,7 +24,18 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 // cookie-parser 라이브러리 추가
 const cookieParser = require('cookie-parser');
-app.use(cookieParser());
+app.use(cookieParser('afeafaghaga')); //
+
+// 세션 라이브러리 추가
+const session = require('express-session');
+app.use(session({
+    secret : '성적.. 망했다.',
+    resave : false, // 접속할때마다 새로운 세션을 발급받지 않음
+    saveUninitialized : true // 세션을 사용하기 전 까지 세션을 발급하지 않음
+}));
+
+const sha = require('sha256');
+sha
 
 app.set('view engine','ejs');
 
@@ -61,21 +72,31 @@ const ObjId = require('mongodb').ObjectId;
 
 
 app.get('/cookie',function(req,res){
-
-    let milk = parseInt(req.cookies.milk) + 1000;
+    // cookies, signedCookies(암호화)
+    let milk = parseInt(req.signedCookies.milk) + 1000;
     if(isNaN(milk)){
         milk = 0;
     }
-
-    res.cookie('milk',milk,{maxAge:5000}); // cookie(키, 값) 키, 값 형태로 저장
-    res.send('product : ' + milk + "원");
+    // signed true 옵션 - 암호화된 상태로 저장
+    res.cookie('milk',milk,{signed:true}); // cookie(키, 값) 키, 값 형태로 저장
+    // res.send('product : ' + milk + "원");
 
     // res.clearCookie() // 쿠키삭제
 })
 
+
+app.get('/session',function(req,res){
+    if(isNaN(req.session.milk)){
+        req.session.milk = 0;
+    }
+    req.session.milk = req.session.milk + 1000;
+    res.send('product : ' + req.session.milk + "원");
+
+})
+
 // 여기를 루트로 시작
 app.get('/',function(req, res){
-    res.render('index.ejs');
+    res.render('index.ejs', {user : req.session.user});
 });
 
 app.get('/enter',function(req, res){
@@ -189,3 +210,65 @@ app.post('/edit',function(req, res){
 });
 
 
+app.get('/login', function(req, res){
+    console.log(req.session);
+    if(req.session.user){
+        console.log('세션유지');
+        res.render('index.ejs', {user : req.session.user});
+    }else{
+        res.render("login.ejs");
+    }  
+})
+
+app.post('/login', function(req, res){
+    console.log(req.body.userid);
+    console.log(req.body.userpw);
+
+    mydb.collection("account").findOne({userid : req.body.userid})
+    .then((result)=>{
+        console.log(result);
+        if(result){
+            if(result.userpw == sha(req.body.userpw)){
+                req.session.user = req.body;
+                console.log('새로운 로그인');
+                res.render('index.ejs', {user : req.session.user});
+            }else{
+                res.render('login.ejs');
+            }
+        } else {
+            console.log('존재하지 않는 사용자입니다.');
+            res.render('login.ejs', { error: '존재하지 않는 사용자입니다.' });
+        }
+        
+    })
+})
+
+app.get('/logout', function(req, res){
+    console.log('로그아웃');
+    req.session.destroy();
+    res.render("index.ejs", {user : null});
+})
+
+app.get('/signup', function(req, res){
+    console.log('회원가입');
+    res.render('signup.ejs');
+})
+
+app.post('/signup', function(req, res){
+    console.log(req.body.userid);
+    console.log(sha(req.body.userpw));
+    console.log(req.body.usergroup);
+    console.log(req.body.useremail);
+
+    mydb.collection('account').insertOne(
+        {
+            userid : req.body.userid,
+            userpw : sha(req.body.userpw),
+            usergroup : req.body.usergroup,
+            useremail : req.body.useremail
+        }
+    ).then((result)=>{
+        console.log('회원가입 성공');
+        res.redirect('/');
+    })
+})
