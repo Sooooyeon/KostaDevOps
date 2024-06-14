@@ -15,6 +15,9 @@
 const express = require('express');
 const app = express(); // 서버 객체를 받음
 
+const passport = require("passport");
+const localStrategy = require('passport-local').Strategy;
+
 
 
 
@@ -34,8 +37,12 @@ app.use(session({
     saveUninitialized : true // 세션을 사용하기 전 까지 세션을 발급하지 않음
 }));
 
+// passport에서 session을 사용할것이기 때문에 세션 요청 이후 초기화 진행할 것
+app.use(passport.initialize());
+app.use(passport.session());
+
 const sha = require('sha256');
-sha
+
 
 app.set('view engine','ejs');
 
@@ -96,8 +103,8 @@ app.get('/session',function(req,res){
 
 // 여기를 루트로 시작
 app.get('/',function(req, res){
-    if(req.session.user){
-        res.render('index.ejs', {user : req.session.user});
+    if(req.session.passport){
+        res.render('index.ejs', {user : req.session.passport});
     } 
     else {
         res.render('index.ejs', {user : null});
@@ -225,29 +232,79 @@ app.get('/login', function(req, res){
     }  
 })
 
-app.post('/login', function(req, res){
-    console.log(req.body.userid);
-    console.log(req.body.userpw);
 
-    mydb.collection("account").findOne({userid : req.body.userid})
+// 아래에서 연결 성공하면 여기로 id가 들어옴 (처음에 한번만)
+passport.serializeUser(function(user, done){
+    console.log("serializeUser");
+    console.log(user.userid);
+    done(null, user.userid);
+});
+// done(서버 에러 객체, 결과 데이터, 에러 메시지)
+
+
+// 연결되면 다음부터는 deserializeUser에서 실행
+passport.deserializeUser(function(puserid, done){
+    console.log('deserializeUser');
+    console.log(puserid);
+
+    mydb
+    .collection('account')
+    .findOne({userid: puserid})
     .then((result)=>{
         console.log(result);
-        if(result){
-            if(result.userpw == sha(req.body.userpw)){
-                req.session.user = req.body;
-                console.log('새로운 로그인');
-                res.render('index.ejs', {user : req.session.user});
-            }else{
-                res.render('login.ejs');
-            }
-        } 
-        else {
-            console.log('존재하지 않는 사용자입니다.');
-            res.render('login.ejs', { error: '존재하지 않는 사용자입니다.' });
-        }
-        
+        done(null, result);
     })
-})
+});
+
+// 로그인시 passport를 통해 인증 절차를 걸침
+app.post('/login', passport.authenticate("local", {
+        succeessRedirect:"/",
+        failureRedirect:"/fail",
+    }),
+    function(req, res){
+        //serialize의 done 함수에서 성공 응답을 받았을 경우 실행
+        console.log("session" + req.session);      
+        console.log(req.session.passport);
+        res.render('index.ejs', {user : req.session.passport});
+    }
+);
+
+
+
+// 위의 코드에서 인증해야할 정보
+passport.use(
+    new localStrategy(
+        {
+            usernameField: 'userid',
+            passwordField: 'userpw',
+            session: true,
+            passReqToCallback: false,
+        },
+        function(inputid, inputpw, done){
+            mydb.collection("account").findOne({userid : inputid})
+            .then((result)=>{
+                console.log(result);
+                if(result){
+                    if(result.userpw == sha(inputpw)){
+                        console.log('새로운 로그인');
+                        done(null,result);
+                        // done은 serialize함수를 호출
+                    }else{
+                        done(null, false, {message : "비밀번호가 틀렸습니다."});
+                    }
+                } 
+                // else {
+                //     console.log('존재하지 않는 사용자입니다.');
+                //     res.render('login.ejs', { error: '존재하지 않는 사용자입니다.' });
+                // }
+                
+            })
+        }
+    )
+)
+
+
+    
 
 app.get('/logout', function(req, res){
     console.log('로그아웃');
@@ -277,9 +334,4 @@ app.post('/signup', function(req, res){
         console.log('회원가입 성공');
         res.redirect('/');
     })
-})
-
-
-app.post('/photo',function(req,res){
-    console.log('서버에 파일 첨부하기');
 })
