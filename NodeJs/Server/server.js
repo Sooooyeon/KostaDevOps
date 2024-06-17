@@ -1,21 +1,21 @@
-// MySQL + Node.js 접속
-// let mysql = require('mysql');
-// let conn = mysql.createConnection({
-//     host : 'localhost',
-//     user : 'root',
-//     password : '123456',
-//     database : 'myboard'
-// });
-
-// conn.connect();
-
-
-
-
 const express = require('express');
 const app = express(); // 서버 객체를 받음
 
+const dotenv = require('dotenv').config();
 
+// multer 라이브러리 추가
+let multer = require('multer');
+// 설정
+let storage = multer.diskStorage({
+    destination : function(req, file, done){
+        done(null, './public/image')
+    },
+    filename : function(req, file, done){
+        done(null, file.originalname);
+    }
+})
+// multer등록
+let upload = multer({storage : storage})
 
 
 // body-parser 라이브러리 추가
@@ -35,20 +35,23 @@ app.use(session({
 }));
 
 const sha = require('sha256');
-sha
 
 app.set('view engine','ejs');
 
 // 정적 파일 라이브러리 추가 (경로 지정시 public이 루트)
-app.use(express.static("public"));
+// app.use(express.static("public"));
+app.use("/public", express.static("public"));
 
 
+app.use('/', require('./routes/post.js'));
+app.use('/', require('./routes/auth.js'));
+app.use('/', require('./routes/add.js'));
 
 
 // mongoDB 연동
 let mydb;
 const mongoClent = require('mongodb').MongoClient;
-const url = 'mongodb+srv://tn56dus:VgHDnJ2gU1hnctFD@cluster0.shgya4b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const url = process.env.DB_URL;
 mongoClent.connect(url).then(client=>{
     console.log('몽고DB 접속');
     mydb = client.db('myboard');
@@ -56,7 +59,7 @@ mongoClent.connect(url).then(client=>{
     //     console.log(result);
     // })
     // 8080으로 접근하면 실행
-    app.listen(8080, function(){
+    app.listen(process.env.PORT, function(){
         // 포트번호, 콜백함수
         console.log('포트 8080으로 서버 대기...')
     });
@@ -64,11 +67,6 @@ mongoClent.connect(url).then(client=>{
 
 const ObjId = require('mongodb').ObjectId;
 
-// 8080으로 접근하면 실행
-// app.listen(8080, function(){
-//     // 포트번호, 콜백함수
-//     console.log('포트 8080으로 서버 대기...')
-// });
 
 
 app.get('/cookie',function(req,res){
@@ -104,10 +102,13 @@ app.get('/',function(req, res){
     }
 });
 
-app.get('/enter',function(req, res){
-    // res.sendFile(__dirname + '/enter.html');
-    res.render('enter.ejs');
-});
+
+let imagepath = '';
+
+app.post('/photo', upload.single('picture'), function(req,res){
+    console.log(req.file.path);
+    imagepath = '\\' + req.file.path;
+})
 
 app.post('/save',function(req, res){
     console.log(req.body);
@@ -128,7 +129,12 @@ app.post('/save',function(req, res){
 
     // 몽고DB에 데이터 저장
     mydb.collection('post').insertOne(
-        {title : req.body.title, content : req.body.content, date : req.body.someDate}
+        {
+            title : req.body.title,
+            content : req.body.content,
+            date : req.body.someDate,
+            path : imagepath
+        }
     ).then((result)=>{
         console.log(result);
         console.log('데이터 저장완료');
@@ -138,148 +144,13 @@ app.post('/save',function(req, res){
 
 });
 
-app.get('/list',function(req, res){
-    // mysql
-    // conn.query("select * from post", function(err, rows, field){
-    //     if(err) throw err;
-    //     console.log(rows);
-    // });
 
-    
-    // MongoDB
-    mydb.collection('post').find().toArray().then((result)=>{
-        //console.log(result);
-        res.render('list.ejs', {data : result});
-    })
-
-
-    // res.sendFile(__dirname + '/list.html');
-    
-});
-
-app.post('/delete',function(req, res){
-    console.log(req.body._id);
-    req.body._id = new ObjId(req.body._id); // 문자열 아이디를 객체로 변환
-    console.log(req.body._id);
-
-    mydb.collection('post').deleteOne(req.body)
-    .then((result)=>{
-        console.log('삭제완료');
-        res.status(200).send();
-    })
-    .catch(err=>{
-        console.log(err);
-        res.status(500).send();
-    })
-});
-
-
-app.get('/content/:id', function(req, res){
-    console.log(req.params.id);
-
-    const id = new ObjId(req.params.id);
-    mydb.collection('post').findOne({_id : id})
-    .then((result)=>{
+app.get('/search',function(req, res){
+    console.log(req.query);
+    mydb.collection('post')
+    .find({title : req.query.value}).toArray()
+    .then((result) => {
         console.log(result);
-        res.render('content.ejs', {data:result});
+        res.render('sresult.ejs',{data: result});
     })
-});
-
-app.get('/edit/:id',function(req, res){
-    const id = new ObjId(req.params.id);
-    mydb.collection('post').findOne({_id : id})
-    .then((result)=>{
-        console.log(result);
-        res.render('edit.ejs', {data:result});
-    })
-});
-
-app.post('/edit',function(req, res){
-
-    console.log(req.body);
-    console.log(req.body.id);
-    const id = new ObjId(req.body.id);
-
-    // 몽고DB에 데이터 저장
-    mydb.collection('post').updateOne(
-        {_id : id},
-        {$set : {title : req.body.title, content : req.body.content, date : req.body.someDate}}
-    ).then((result)=>{
-        console.log(result);
-        console.log('수정완료');
-        res.redirect('/list');
-    })
-    .catch((err)=>{
-        console.log(err);
-    })
-});
-
-
-app.get('/login', function(req, res){
-    console.log(req.session);
-    if(req.session.user){
-        console.log('세션유지');
-        res.render('index.ejs', {user : req.session.user});
-    }else{
-        res.render("login.ejs");
-    }  
-})
-
-app.post('/login', function(req, res){
-    console.log(req.body.userid);
-    console.log(req.body.userpw);
-
-    mydb.collection("account").findOne({userid : req.body.userid})
-    .then((result)=>{
-        console.log(result);
-        if(result){
-            if(result.userpw == sha(req.body.userpw)){
-                req.session.user = req.body;
-                console.log('새로운 로그인');
-                res.render('index.ejs', {user : req.session.user});
-            }else{
-                res.render('login.ejs');
-            }
-        } 
-        else {
-            console.log('존재하지 않는 사용자입니다.');
-            res.render('login.ejs', { error: '존재하지 않는 사용자입니다.' });
-        }
-        
-    })
-})
-
-app.get('/logout', function(req, res){
-    console.log('로그아웃');
-    req.session.destroy();
-    res.render("index.ejs", {user : null});
-})
-
-app.get('/signup', function(req, res){
-    console.log('회원가입');
-    res.render('signup.ejs');
-})
-
-app.post('/signup', function(req, res){
-    console.log(req.body.userid);
-    console.log(sha(req.body.userpw));
-    console.log(req.body.usergroup);
-    console.log(req.body.useremail);
-
-    mydb.collection('account').insertOne(
-        {
-            userid : req.body.userid,
-            userpw : sha(req.body.userpw),
-            usergroup : req.body.usergroup,
-            useremail : req.body.useremail
-        }
-    ).then((result)=>{
-        console.log('회원가입 성공');
-        res.redirect('/');
-    })
-})
-
-
-app.post('/photo',function(req,res){
-    console.log('서버에 파일 첨부하기');
 })

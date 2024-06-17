@@ -10,8 +10,14 @@
 </head>
 
 <body>
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../public/style.css">
   <%- include('menu.html') %>
+    <p></p>
+    <div class="container input-group m1-2 my-3">
+      <input class="form-control sword" type="search" placeholder="검색어 입력">
+      <button class="btn btn-success input-group-append sbtn">검색하기</button>
+    </div>
+
     <table class="table table-hover table-striped text-center container mt-4" style="border: 1px solid gray;">
       <thead>
         <tr>
@@ -70,6 +76,11 @@
 
       $('.enter').click(function (e) {
         location.href = '/enter';
+      })
+
+      $('.sbtn').click(function (e) {
+        const inputValue = $('.sword').val()
+        location.href = '\\search?value=' + inputValue;
       })
 
 
